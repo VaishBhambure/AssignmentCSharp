@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.sourcelink.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\bin\Debug\net6.0\AssigmnetDay3.exe
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\bin\Debug\net6.0\AssigmnetDay3.deps.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\bin\Debug\net6.0\AssigmnetDay3.runtimeconfig.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\bin\Debug\net6.0\AssigmnetDay3.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\bin\Debug\net6.0\AssigmnetDay3.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\refint\AssigmnetDay3.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\AssigmnetDay3.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssigmnetDay3\obj\Debug\net6.0\ref\AssigmnetDay3.dll

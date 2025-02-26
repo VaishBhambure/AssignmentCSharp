@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\bin\Debug\net6.0\AssignmentDay2.exe
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\bin\Debug\net6.0\AssignmentDay2.deps.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\bin\Debug\net6.0\AssignmentDay2.runtimeconfig.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\bin\Debug\net6.0\AssignmentDay2.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\bin\Debug\net6.0\AssignmentDay2.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.sourcelink.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\refint\AssignmentDay2.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\AssignmentDay2.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\AssigmnetSol\AssignmentDay2\obj\Debug\net6.0\ref\AssignmentDay2.dll
