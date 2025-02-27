@@ -6,6 +6,7 @@ namespace AssignmentDay4
     {
         static void Main(string[] args)
         {
+            #region UserData
             UserData user1 = new UserData("vaish");
             UserData.DisplayDetails();
             UserData user2 = new UserData("Navi");
@@ -18,7 +19,17 @@ namespace AssignmentDay4
             UserData.DisplayDetails(); 
             UserData user6 = new UserData("Rahul");
             UserData.DisplayDetails();
-           
+            #endregion
+
+            #region Salary
+            Employee emp = new Employee("Alice", 50000);
+            emp.DisplayDetails();
+
+            Console.WriteLine();
+
+            Manager mgr = new Manager("Bob", 70000, 10000);
+            mgr.DisplayDetails();
+            #endregion
 
 
         }
