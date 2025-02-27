@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assigmnetday3\\car1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|solutionrelative:assigmnetday3\\car1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assigmnetday3\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|solutionrelative:assigmnetday3\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assigmnetday3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|solutionrelative:assigmnetday3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assigmnetday3\\car1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|solutionrelative:assigmnetday3\\car1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9272752D-9096-41EC-AFBF-10A1C4C9AE98}|AssignmentDay2\\AssignmentDay2.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,29 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Car1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car1.cs",
-              "RelativeDocumentMoniker": "AssigmnetDay3\\Car1.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car1.cs*",
-              "RelativeToolTip": "AssigmnetDay3\\Car1.cs*",
-              "ViewState": "AgIAABYAAADAXmZmZmYawCQAAAB6AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\UserData.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Model\\UserData.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\UserData.cs",
+              "RelativeToolTip": "AssignmentDay4\\Model\\UserData.cs",
+              "ViewState": "AgIAAAoAAADAYmZmZmYswBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:55:08.481Z",
+              "WhenOpened": "2025-02-26T11:40:47.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car.cs",
-              "RelativeDocumentMoniker": "AssigmnetDay3\\Car.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car.cs",
-              "RelativeToolTip": "AssigmnetDay3\\Car.cs",
-              "ViewState": "AgIAAAUAAADg+v////8XwBkAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Program.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Program.cs",
+              "RelativeToolTip": "AssignmentDay4\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:46:44.778Z",
+              "WhenOpened": "2025-02-26T11:40:19.848Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car1.cs",
+              "RelativeDocumentMoniker": "AssigmnetDay3\\Car1.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car1.cs",
+              "RelativeToolTip": "AssigmnetDay3\\Car1.cs",
+              "ViewState": "AgIAAAcAAADgMjMzMzMrwCQAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:55:08.481Z"
             },
             {
               "$type": "Document",
@@ -66,14 +82,14 @@
               "RelativeDocumentMoniker": "AssigmnetDay3\\Program.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Program.cs",
               "RelativeToolTip": "AssigmnetDay3\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAMzMzMzMbwBAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAABAmJmZmZktwBYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T10:46:28.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay2\\Program.cs",
               "RelativeDocumentMoniker": "AssignmentDay2\\Program.cs",
@@ -81,8 +97,7 @@
               "RelativeToolTip": "AssignmentDay2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:45:00.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T10:45:00.353Z"
             }
           ]
         }

@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\model\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\model\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday4\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8411BC-1282-4CC9-95D4-2FAD439CB423}|AssignmentDay4\\AssignmentDay4.csproj|solutionrelative:assignmentday4\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assigmnetday3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D279E58-6D71-42E0-89CF-002671976B3D}|AssigmnetDay3\\AssigmnetDay3.csproj|solutionrelative:assigmnetday3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +51,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\Manager.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Model\\Manager.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\Manager.cs",
+              "RelativeToolTip": "AssignmentDay4\\Model\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:59:02.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Model\\Employee.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\Employee.cs",
+              "RelativeToolTip": "AssignmentDay4\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:58:40.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\Company.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Model\\Company.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\Company.cs",
+              "RelativeToolTip": "AssignmentDay4\\Model\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:58:32.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\UserData.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Model\\UserData.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Model\\UserData.cs",
+              "RelativeToolTip": "AssignmentDay4\\Model\\UserData.cs",
+              "ViewState": "AgIAAAoAAADAYmZmZmYswBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:40:47.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Program.cs",
+              "RelativeDocumentMoniker": "AssignmentDay4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay4\\Program.cs",
+              "RelativeToolTip": "AssignmentDay4\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:40:19.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Car1.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Car1.cs",
               "RelativeDocumentMoniker": "AssigmnetDay3\\Car1.cs",
@@ -38,12 +122,11 @@
               "RelativeToolTip": "AssigmnetDay3\\Car1.cs",
               "ViewState": "AgIAAAcAAADgMjMzMzMrwCQAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:55:08.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T10:55:08.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssigmnetDay3\\Program.cs",
               "RelativeDocumentMoniker": "AssigmnetDay3\\Program.cs",
@@ -51,12 +134,11 @@
               "RelativeToolTip": "AssigmnetDay3\\Program.cs",
               "ViewState": "AgIAABAAAABAmJmZmZktwBYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:46:28.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T10:46:28.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay2\\Program.cs",
               "RelativeDocumentMoniker": "AssignmentDay2\\Program.cs",
@@ -64,8 +146,7 @@
               "RelativeToolTip": "AssignmentDay2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:45:00.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T10:45:00.353Z"
             }
           ]
         }
