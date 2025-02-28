@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentDay1", "Assignmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentDay2", "AssignmentDay2\AssignmentDay2.csproj", "{9272752D-9096-41EC-AFBF-10A1C4C9AE98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssigmnetDay3", "AssigmnetDay3\AssigmnetDay3.csproj", "{9D279E58-6D71-42E0-89CF-002671976B3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentDay3", "AssigmnetDay3\AssignmentDay3.csproj", "{9D279E58-6D71-42E0-89CF-002671976B3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentDay4", "AssignmentDay4\AssignmentDay4.csproj", "{ED8411BC-1282-4CC9-95D4-2FAD439CB423}"
 EndProject

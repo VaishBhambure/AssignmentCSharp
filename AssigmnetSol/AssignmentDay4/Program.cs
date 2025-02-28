@@ -22,12 +22,12 @@ namespace AssignmentDay4
             #endregion
 
             #region Salary
-            Employee emp = new Employee("Alice", 50000);
+            Employee emp = new Employee("Vaish", 50000);
             emp.DisplayDetails();
 
             Console.WriteLine();
 
-            Manager mgr = new Manager("Bob", 70000, 10000);
+            Manager mgr = new Manager("Vaishnavi", 70000, 10000);
             mgr.DisplayDetails();
             #endregion
 

@@ -6,24 +6,51 @@ namespace AssignmentDay5
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.Write("Enter Beneficiary Account Number: ");
-                string inputAccountNumber = Console.ReadLine();
+            Console.WriteLine("Question 1");
+            AccountValidatorRepository accountValidatorRepository = new AccountValidatorRepository();
 
-                // Validate and check if account exists
-                AccountValidator.ValidateAccount(inputAccountNumber);
+           
 
-                Console.WriteLine("Account found! Proceeding with the transaction...");
-            }
-            catch (Exception ex)
+            //Console.WriteLine("Available Beneficiary Accounts:");
+            //foreach (var account in accountValidatorRepository.GetBeneficiaryAccountNumbers())
+            //{
+            //    Console.WriteLine($"- {account}");
+            //}
+
+            Console.Write("\nEnter Beneficiary Account Number: ");
+            if (int.TryParse(Console.ReadLine(), out int inputAccountNumber))
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                if (accountValidatorRepository.ValidateAccount(inputAccountNumber))
+                {
+                    Console.WriteLine("Account is valid. Proceeding with the transaction...");
+                }
+                else
+                {
+                    Console.WriteLine("Transaction failed due to an invalid account number.");
+                }
             }
-            finally
+            else
             {
-                Console.WriteLine("Transaction process completed.");
+                Console.WriteLine("Invalid input! Please enter a valid numeric account number.");
             }
+
+
+            Console.WriteLine("Question 2");
+            VehicleInsurance bikePolicy = new TwoWheelerInsurance("John Doe", "Two Wheeler", 50000);
+            bikePolicy.DisplayPolicyDetails();
+
+            VehicleInsurance carPolicy = new FourWheelerInsurance("Jane Smith","Four Wheeler", 800000);
+            carPolicy.DisplayPolicyDetails();
+
+
+
+            VehicleInsurance truckPolicy = new CommercialVehicleInsurance("Mike Johnson","Commercial ", 1200000);
+            truckPolicy.DisplayPolicyDetails();
+
+
+
         }
     }
+
+
 }
