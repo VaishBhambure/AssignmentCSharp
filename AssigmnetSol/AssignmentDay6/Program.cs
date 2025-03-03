@@ -51,6 +51,11 @@
                 {
                     Console.Write("Enter workshop name: ");
                     string workshop = Console.ReadLine();
+                    if (!registrationSystem.IsValidWorkshop(workshop))
+                    {
+                        Console.WriteLine($"Invalid workshop name: {workshop}. Available workshops: Robotics, Gen AI, ML, Cyber Security.");
+                        continue;
+                    }
                     Console.Write("Enter student ID: ");
                     if (int.TryParse(Console.ReadLine(), out int studentID))
                     {
@@ -63,7 +68,7 @@
                 }
                 else if (input == "2")
                 {
-                    Console.Write("Enter workshop name: ");
+                    Console.Write("Enter workshop name Available workshops: Robotics, Gen AI, ML, Cyber Security. ");
                     string workshop = Console.ReadLine();
                     registrationSystem.DisplayRegistrations(workshop);
                 }

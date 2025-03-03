@@ -15,10 +15,14 @@ namespace AssignmentDay6
             workshopRegistrations["ML"] = new HashSet<int>();
             workshopRegistrations["Cyber Security"] = new HashSet<int>();
         }
+        public bool IsValidWorkshop(string workshop)
+        {
+            return workshopRegistrations.ContainsKey(workshop);
+        }
         // Register a student for a workshop
         public void RegisterStudent(string workshop, int studentID)
         {
-            if (!workshopRegistrations.ContainsKey(workshop))
+            if (!IsValidWorkshop(workshop))
             {
                 Console.WriteLine($"Invalid workshop name: {workshop}. Available workshops: Robotics, Gen AI, ML, Cyber Security.");
             return;
