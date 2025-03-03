@@ -36,19 +36,19 @@ namespace AssignmentDay5
 
 
             Console.WriteLine("Question 2");
-            VehicleInsurance bikePolicy = new TwoWheelerInsurance("John Doe", "Two Wheeler", 50000);
+            VehicleInsurance bikePolicy = new TwoWheelerInsurance("vaishnavi ", "Two Wheeler", 50000);
             bikePolicy.DisplayPolicyDetails();
 
-            VehicleInsurance carPolicy = new FourWheelerInsurance("Jane Smith","Four Wheeler", 800000);
+            VehicleInsurance carPolicy = new FourWheelerInsurance("Sakshi","Four Wheeler", 800000);
             carPolicy.DisplayPolicyDetails();
 
 
 
-            VehicleInsurance truckPolicy = new CommercialVehicleInsurance("Mike Johnson","Commercial ", 1200000);
+            VehicleInsurance truckPolicy = new CommercialVehicleInsurance("Rahul","Commercial ", 1200000);
             truckPolicy.DisplayPolicyDetails();
 
 
-
+                
         }
     }
 
