@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday6\\workshopregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|solutionrelative:assignmentday6\\workshopregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E29C3367-9EB1-4756-B558-2224BD2851CE}|AssignmentDay7\\AssignmentDay7.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29C3367-9EB1-4756-B558-2224BD2851CE}|AssignmentDay7\\AssignmentDay7.csproj|solutionrelative:assignmentday7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|solutionrelative:assignmentday6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday6\\workshopregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|solutionrelative:assignmentday6\\workshopregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{268D9022-D8CB-4E2F-8777-49C36FEDDF85}|AssignmentDay6\\AssignmentDay6.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\assigmnetsol\\assignmentday6\\banktokensytem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay7\\Program.cs",
+              "RelativeDocumentMoniker": "AssignmentDay7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay7\\Program.cs*",
+              "RelativeToolTip": "AssignmentDay7\\Program.cs*",
+              "ViewState": "AgIAAAcAAAAgmZmZmZktwBgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:09:00.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BankTokenSytem.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay6\\BankTokenSytem.cs",
               "RelativeDocumentMoniker": "AssignmentDay6\\BankTokenSytem.cs",
@@ -47,13 +64,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WorkshopRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay6\\WorkshopRegistration.cs",
               "RelativeDocumentMoniker": "AssignmentDay6\\WorkshopRegistration.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay6\\WorkshopRegistration.cs",
               "RelativeToolTip": "AssignmentDay6\\WorkshopRegistration.cs",
-              "ViewState": "AgIAACgAAACAZ2ZmZmYGwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAABY//////88wBoAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T09:24:06.15Z",
               "EditorCaption": ""
@@ -66,14 +83,14 @@
               "RelativeDocumentMoniker": "AssignmentDay6\\Program.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay6\\Program.cs",
               "RelativeToolTip": "AssignmentDay6\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAACAYWZmZmYSwEYAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T06:15:34.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FourWheelerInsurance .cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\AssigmnetSol\\AssignmentDay5\\Model\\FourWheelerInsurance .cs",
               "RelativeDocumentMoniker": "AssignmentDay5\\Model\\FourWheelerInsurance .cs",
