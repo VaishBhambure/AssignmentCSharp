@@ -29,15 +29,7 @@ namespace PolicyApp
                         policyRepository.GetAllPolicies();
                         break;
                     case "3":
-                        Console.Write("Enter Policy ID to search: ");
-                        if (int.TryParse(Console.ReadLine(), out int searchId))
-                        {
-                            policyRepository.GetPolicyByID(searchId);
-                        }
-                        else
-                        {
-                            Console.WriteLine("Invalid ID format. Please enter a valid integer.");
-                        }
+                        policyRepository.GetPolicyByID();
                         break;
                     case "4":
                         policyRepository.UpdatePolicy();

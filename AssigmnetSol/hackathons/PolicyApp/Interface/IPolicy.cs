@@ -13,20 +13,12 @@ namespace PolicyApp.Interface
         //public List<Policy> GetActivePolicies();
 
 
-        //void AddPolicy();
-        //void UpdatePolicy();
-        //void DeletePolicy();
-        //void GetPolicyByID();
-        //List<Policy> GetAllPolicies();
-        //List<Policy> GetActivePolicies();
-
-        Policy AddPolicy();
-        bool UpdatePolicy();
-        bool DeletePolicy();
-        Policy GetPolicyByID(int id);
+        void AddPolicy();
+        void UpdatePolicy();
+        void DeletePolicy();
+        void GetPolicyByID();
         List<Policy> GetAllPolicies();
         List<Policy> GetActivePolicies();
 
     }
 }
-
