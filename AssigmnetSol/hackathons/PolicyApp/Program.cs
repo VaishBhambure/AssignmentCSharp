@@ -12,7 +12,10 @@ namespace PolicyApp
         static IPolicy policyRepository = new PolicyRepository(); // Use interface
 
         static void Main(string[] args)
+
         {
+          
+
             while (true)
             {
                 Console.WriteLine("\n####");
@@ -29,7 +32,15 @@ namespace PolicyApp
                         policyRepository.GetAllPolicies();
                         break;
                     case "3":
-                        policyRepository.GetPolicyByID();
+                        Console.Write("Enter Policy ID to search: ");
+                        if (int.TryParse(Console.ReadLine(), out int searchId))
+                        {
+                            policyRepository.GetPolicyByID(searchId); // Pass the ID as an argument
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid ID format. Please enter a valid integer.");
+                        }
                         break;
                     case "4":
                         policyRepository.UpdatePolicy();

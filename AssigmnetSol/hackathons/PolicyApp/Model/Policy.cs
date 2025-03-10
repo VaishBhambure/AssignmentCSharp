@@ -6,10 +6,10 @@ namespace PolicyApp.Model
     {
         public enum PolicyType
         {
-            Life,
-            Health,
-            Vehicle,
-            Property
+            Life=1,
+            Health=2,
+            Vehicle=3,
+            Property=4
         }
 
         public int PolicyID { get; set; }
