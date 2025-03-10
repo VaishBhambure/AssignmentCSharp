@@ -29,7 +29,7 @@ namespace PolicyApp.Model
 
         public bool IsActive()
         {
-            return DateTime.Now >= StartDate && DateTime.Now <= EndDate;
+            return DateTime.Now >= StartDate && DateTime.Now <= EndDate;              
         }
         public override string ToString()
         {
