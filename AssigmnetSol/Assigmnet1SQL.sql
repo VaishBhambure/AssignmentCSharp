@@ -148,9 +148,31 @@ from Customers c
 select * from Orders
 
 --2. Find the customer(s) who placed the most orders. 
+SELECT Name, CustomerID 
+FROM Customers 
+WHERE CustomerID IN (
+    SELECT CustomerID 
+    FROM Orders 
+    GROUP BY CustomerID 
+    HAVING COUNT(OrderID) = (
+        SELECT MAX(OrderCount) 
+        FROM (SELECT CustomerID, COUNT(OrderID) AS OrderCount FROM Orders GROUP BY CustomerID) AS OrderCounts
+    )
+);
+
 
 --3. Find customers who have not placed any orders 
+SELECT Name, CustomerID 
+FROM Customers 
+WHERE CustomerID NOT IN (SELECT DISTINCT CustomerID FROM Orders);
 
 
 --4. Retrieve all books cheaper than the most expensive book written by( any  author based on your data) 
+SELECT Title, Price 
+FROM Books 
+WHERE Price < (
+    SELECT MAX(Price) 
+    FROM Books
+);
+
 --5. List all customers whose total spending is greater than the average spending of all customers 
