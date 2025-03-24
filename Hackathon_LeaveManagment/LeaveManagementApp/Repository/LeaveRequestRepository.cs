@@ -1,6 +1,8 @@
 ﻿
 using LeaveManagementApp.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using LeaveManagementApp.Models;
+
 
 
 namespace LeaveManagementApp.Repository
@@ -32,6 +34,11 @@ namespace LeaveManagementApp.Repository
 
         public async Task AddLeaveRequestAsync(LeaveRequest leaveRequest)
         {
+            if (leaveRequest == null)
+            {
+                throw new ArgumentNullException(nameof(leaveRequest));
+            }
+
             await _context.LeaveRequests.AddAsync(leaveRequest);
             await _context.SaveChangesAsync();
         }

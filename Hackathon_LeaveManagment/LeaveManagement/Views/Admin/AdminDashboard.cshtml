@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LeaveManagement.Models.LeaveApproval>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard - Leave Approvals</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Approval ID</th>
+            <th>Leave Request ID</th>
+            <th>Manager Name</th>
+            <th>Status</th>
+            <th>Reviewed Date</th>
+            <th>Manager Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var approval in Model)
+        {
+            <tr>
+                <td>@approval.ApprovalId</td>
+                <td>@approval.LeaveRequestId</td>
+                <td>@approval.Manager?.Name</td>  @* Fetch manager name *@
+                <td>@approval.ApprovalStatus</td>
+                <td>@approval.ReviewedDate.ToString("yyyy-MM-dd")</td>
+                <td>@approval.Comments</td>
+            </tr>
+        }
+    </tbody>
+</table>

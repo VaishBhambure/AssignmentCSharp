@@ -1,6 +1,7 @@
 ﻿using LeaveManagement.Context;
 using LeaveManagement.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -36,6 +37,7 @@ namespace LeaveManagement.Repository
         {
             await _context.LeaveApprovals.AddAsync(approval);
             await _context.SaveChangesAsync();
+
         }
 
         public async Task<IEnumerable<LeaveApproval>> GetApprovalsByManagerIdAsync(int managerId)
@@ -44,6 +46,14 @@ namespace LeaveManagement.Repository
                                  .Where(la => la.ManagerId == managerId)
                                  .Include(la => la.LeaveRequest)
                                  .ToListAsync();
+        }
+        public async Task<bool> UpdateLeaveApprovalAsync(LeaveApproval leaveApproval)
+        {
+            
+            Console.WriteLine($"Updating LeaveApproval: ApprovalId={leaveApproval.ApprovalId}, Comments={leaveApproval.Comments}");
+
+            _context.LeaveApprovals.Update(leaveApproval);
+            return await _context.SaveChangesAsync() > 0;
         }
     }
 }

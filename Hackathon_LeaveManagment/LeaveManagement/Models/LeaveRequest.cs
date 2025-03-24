@@ -52,5 +52,6 @@ namespace LeaveManagement.Models
 
         // One-to-One Relationship with LeaveApproval
         public LeaveApproval? LeaveApproval { get; set; }
+        public string? ManagerComment { get; set; }
     }
 }

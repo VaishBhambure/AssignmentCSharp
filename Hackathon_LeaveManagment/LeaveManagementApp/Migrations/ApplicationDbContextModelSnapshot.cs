@@ -153,21 +153,21 @@ namespace LeaveManagementApp.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "3c2e7ba1-d198-4352-8913-5d07e915198c",
+                            ConcurrencyStamp = "8364d0c2-35fa-45c4-888d-a50c09017f0b",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "bc3cd356-02bf-4128-affc-48793c7c1821",
+                            ConcurrencyStamp = "3b62c845-af84-4526-a369-3f2bc7634421",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         },
                         new
                         {
                             Id = "3",
-                            ConcurrencyStamp = "b6bcadad-adda-4b70-832a-0782d2613c8a",
+                            ConcurrencyStamp = "ee4e504c-44be-41d5-b433-100de6e2f329",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         });
@@ -445,8 +445,7 @@ namespace LeaveManagementApp.Migrations
 
             modelBuilder.Entity("LeaveRequest", b =>
                 {
-                    b.Navigation("Approval")
-                        .IsRequired();
+                    b.Navigation("Approval");
                 });
 
             modelBuilder.Entity("User", b =>

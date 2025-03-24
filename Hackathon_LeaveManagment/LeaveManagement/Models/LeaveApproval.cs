@@ -7,8 +7,9 @@ namespace LeaveManagement.Models
     {
         public enum ApprovalStatusEnum
         {
-            Approved,
-            Rejected
+            Pending = 0,
+            Approved = 1,
+            Rejected = 2
         }
 
         [Key]

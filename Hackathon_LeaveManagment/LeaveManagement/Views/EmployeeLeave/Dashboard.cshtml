@@ -1,0 +1,154 @@
+﻿
+
+
+@* @model IEnumerable<LeaveManagement.Models.LeaveRequest> *@
+
+@* <h2>My Leave Requests</h2> *@
+
+@* <a class="btn btn-primary" asp-controller="EmployeeLeave" asp-action="Apply">Apply for Leave</a> *@
+
+@* @if (TempData["SuccessMessage"] != null) *@
+@* { *@
+@*     <div class="alert alert-success">@TempData["SuccessMessage"]</div> *@
+@* } *@
+
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th>Leave Type</th> *@
+@*             <th>Start Date</th> *@
+@*             <th>End Date</th> *@
+@*             <th>Status</th> *@
+@*             <th>Applied On</th> *@
+@*             <th>Action</th> *@
+@*             <th>Update</th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@*         @foreach (var leave in Model) *@
+@*         { *@
+@*             <tr> *@
+@*                 <td>@leave.LeaveType</td> *@
+@*                 <td>@leave.StartDate.ToShortDateString()</td> *@
+@*                 <td>@leave.EndDate.ToShortDateString()</td> *@
+@*                 <td>@leave.Status</td> *@
+@*                 <td>@leave.AppliedDate.ToShortDateString()</td> *@
+@*                 <td> *@
+@*                     @if (leave.Status == LeaveManagement.Models.LeaveRequest.LeaveStatusEnum.Pending) *@
+@*                     { *@
+@*                         <form asp-controller="EmployeeLeave" asp-action="DeleteLeaveRequest" method="post"> *@
+@*                             <input type="hidden" name="requestId" value="@leave.LeaveRequestId" /> *@
+@*                             <button type="submit" class="btn btn-danger btn-sm">Delete</button> *@
+@*                         </form> *@
+@*                     } *@
+@*                     else *@
+@*                     { *@
+@*                         <span class="text-muted">Not Allowed</span> *@
+@*                     } *@
+@*                 </td> *@
+@*                 <td> *@
+@*                     @if (leave.Status == LeaveManagement.Models.LeaveRequest.LeaveStatusEnum.Pending) *@
+@*                     { *@
+@*                         <a asp-controller="EmployeeLeave" asp-action="Edit" asp-route-id="@leave.LeaveRequestId" class="btn btn-primary">Edit</a> *@
+@*                         <a asp-controller="EmployeeLeave" asp-action="DeleteLeaveRequest" asp-route-id="@leave.LeaveRequestId" class="btn btn-danger">Delete</a> *@
+@*                     } *@
+@*                     else *@
+@*                     { *@
+@*                         <span class="text-muted">Not Allowed</span> *@
+@*                     } *@
+@*                 </td> *@
+@*             </tr> *@
+@*         } *@
+@*     </tbody> *@
+@* </table> *@
+
+
+
+
+
+
+
+
+
+
+@model Tuple<IEnumerable<LeaveManagement.Models.LeaveRequest>, LeaveManagement.Models.LeaveBalance>
+
+<h2>My Leave Requests</h2>
+
+<!-- Leave Balance Section -->
+<div class="card mb-3">
+    <div class="card-header bg-primary text-white">
+        <h5>Leave Balance</h5>
+    </div>
+    <div class="card-body">
+        @if (Model.Item2 != null)
+        {
+            <p><strong>Total Leave Days:</strong> @Model.Item2.TotalLeaveDays</p>
+            <p><strong>Remaining Leave Days:</strong> @Model.Item2.RemainingLeaveDays</p>
+            <p><strong>Last Updated:</strong> @Model.Item2.LastUpdate.ToString("dd-MMM-yyyy")</p>
+        }
+        else
+        {
+            <p>No leave balance data available.</p>
+        }
+    </div>
+</div>
+
+<a class="btn btn-primary" asp-controller="EmployeeLeave" asp-action="Apply">Apply for Leave</a>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Leave Type</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+            <th>Applied On</th>
+            <th>Action</th>
+            <th>Update</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var leave in Model.Item1)
+        {
+            <tr>
+                <td>@leave.LeaveType</td>
+                <td>@leave.StartDate.ToShortDateString()</td>
+                <td>@leave.EndDate.ToShortDateString()</td>
+                <td>@leave.Status</td>
+                <td>@leave.AppliedDate.ToShortDateString()</td>
+                <td>
+                    @if (leave.Status == LeaveManagement.Models.LeaveRequest.LeaveStatusEnum.Pending)
+                    {
+                        <form asp-controller="EmployeeLeave" asp-action="DeleteLeaveRequest" method="post">
+                            <input type="hidden" name="requestId" value="@leave.LeaveRequestId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Not Allowed</span>
+                    }
+                </td>
+                <td>
+                    @if (leave.Status == LeaveManagement.Models.LeaveRequest.LeaveStatusEnum.Pending)
+                    {
+                        <a asp-controller="EmployeeLeave" asp-action="Edit" asp-route-id="@leave.LeaveRequestId" class="btn btn-primary">Edit</a>
+                        <a asp-controller="EmployeeLeave" asp-action="DeleteLeaveRequest" asp-route-id="@leave.LeaveRequestId" class="btn btn-danger">Delete</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Not Allowed</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

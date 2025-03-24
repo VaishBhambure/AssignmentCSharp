@@ -47,20 +47,30 @@ namespace LeaveManagementApp.Controllers
 
         // /Account/Login
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
         {
             if (!ModelState.IsValid)
                 return View(model);
 
             var result = await _userService.LoginUserAsync(model);
+
             if (result)
             {
-                return RedirectToAction("Index", "Home"); 
+                var user = await _userService.GetUserByEmailAsync(model.Email);
+                var roles = await _userService.GetUserRolesAsync(user);
+
+                if (roles.Contains("Employee"))
+                {
+                    return RedirectToAction("EmpIndex", "LeaveRequest"); // Redirect employees to leave request dashboard
+                }
+
+                return RedirectToAction("Index", "Home"); // Redirect others to home
             }
 
             ModelState.AddModelError("", "Invalid login attempt.");
             return View(model);
         }
+
 
         // POST: /Account/Logout
         [HttpPost]

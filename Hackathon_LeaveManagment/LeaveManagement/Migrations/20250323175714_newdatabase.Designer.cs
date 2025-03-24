@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeaveManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250319063958_Password")]
-    partial class Password
+    [Migration("20250323175714_newdatabase")]
+    partial class newdatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -102,6 +102,9 @@ namespace LeaveManagement.Migrations
                     b.Property<int>("LeaveType")
                         .HasColumnType("int");
 
+                    b.Property<string>("ManagerComment")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Reason")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -139,9 +142,10 @@ namespace LeaveManagement.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("PasswordHash")
+                    b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<int>("Role")
                         .HasColumnType("int");
@@ -154,10 +158,18 @@ namespace LeaveManagement.Migrations
                         new
                         {
                             UserId = 1,
-                            Email = "Vaish@gmail.com",
+                            Email = "vaish@gmail.com",
                             Name = "Vaishnavi",
-                            PasswordHash = "AQAAAAEAACcQAAAAECGAeE/sSYGlfkfreBy5oz3GwhUSmCaKIMcB6rdQhxajzMz0J6WA3b3ruRfYyJ75Pw==",
+                            Password = "AQAAAAEAACcQAAAAEJ2Z5C/6wFyb8CUOcH0TGEqVfKp0HwUb2hxoOZrRHBB9/yrfsGUrq3aL7zvaVvMoeg==",
                             Role = 1
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            Email = "bhambure@gmail.com",
+                            Name = "Bhambure",
+                            Password = "AQAAAAEAACcQAAAAEAng7Q9j1+TyynKdvYtWcpMqZkAWdd8uK7qgEaa1r2esHFgCJDs+JUOfAI9dkeia8A==",
+                            Role = 2
                         });
                 });
 
@@ -182,13 +194,13 @@ namespace LeaveManagement.Migrations
 
             modelBuilder.Entity("LeaveManagement.Models.LeaveBalance", b =>
                 {
-                    b.HasOne("LeaveManagement.Models.User", "Employee")
+                    b.HasOne("LeaveManagement.Models.User", "User")
                         .WithOne("LeaveBalance")
                         .HasForeignKey("LeaveManagement.Models.LeaveBalance", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Employee");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("LeaveManagement.Models.LeaveRequest", b =>

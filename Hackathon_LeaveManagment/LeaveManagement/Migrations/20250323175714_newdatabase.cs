@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace LeaveManagement.Migrations
 {
-    public partial class FixUserApprovals : Migration
+    public partial class newdatabase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,7 +17,7 @@ namespace LeaveManagement.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
                     Role = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -59,7 +59,8 @@ namespace LeaveManagement.Migrations
                     EndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
                     Reason = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AppliedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    AppliedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ManagerComment = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -104,7 +105,12 @@ namespace LeaveManagement.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "UserId", "Email", "Name", "Password", "Role" },
-                values: new object[] { 1, "Vaish@gmail.com", "Vaishnavi", "Vaish@123", 1 });
+                values: new object[] { 1, "vaish@gmail.com", "Vaishnavi", "AQAAAAEAACcQAAAAEJ2Z5C/6wFyb8CUOcH0TGEqVfKp0HwUb2hxoOZrRHBB9/yrfsGUrq3aL7zvaVvMoeg==", 1 });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "UserId", "Email", "Name", "Password", "Role" },
+                values: new object[] { 2, "bhambure@gmail.com", "Bhambure", "AQAAAAEAACcQAAAAEAng7Q9j1+TyynKdvYtWcpMqZkAWdd8uK7qgEaa1r2esHFgCJDs+JUOfAI9dkeia8A==", 2 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_LeaveApprovals_LeaveRequestId",

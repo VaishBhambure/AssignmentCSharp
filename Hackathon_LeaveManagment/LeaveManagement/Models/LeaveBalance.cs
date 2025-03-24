@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LeaveManagement.Models
@@ -7,18 +8,20 @@ namespace LeaveManagement.Models
     {
         [Key]
         public int LeaveBalanceId { get; set; }
-        [Required]
 
-        public int UserId { get; set; }
-        [ForeignKey("UserId")]
-        public User Employee { get; set; }//na
         [Required]
-       
+        public int UserId { get; set; }
+
+        public User User { get; set; } // Navigation Property
+
+        [Required]
         public int TotalLeaveDays { get; set; }
 
         [Required]
         public int RemainingLeaveDays { get; set; }
+
         [Required]
         public DateTime LastUpdate { get; set; } = DateTime.UtcNow;
+
     }
 }

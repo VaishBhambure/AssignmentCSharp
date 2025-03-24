@@ -8,5 +8,7 @@ namespace LeaveManagement.Repository
         Task<LeaveApproval> GetLeaveApprovalByIdAsync(int approvalId);
         Task AddLeaveApprovalAsync(LeaveApproval approval);
         Task<IEnumerable<LeaveApproval>> GetApprovalsByManagerIdAsync(int managerId);
+        Task<bool> UpdateLeaveApprovalAsync(LeaveApproval leaveApproval);
     }
+
 }

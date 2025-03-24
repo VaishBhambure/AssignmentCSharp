@@ -20,7 +20,9 @@ namespace LeaveManagement.Services
 
         public async Task<IEnumerable<LeaveRequest>> GetAllLeaveRequestsAsync()
         {
-            return await _leaveRequestRepository.GetAllLeaveRequestsAsync();
+            return await _context.LeaveRequests
+                          .Include(lr => lr.Employee) // Ensure Employee data is loaded
+                          .ToListAsync();
         }
 
         public async Task<LeaveRequest> GetLeaveRequestByIdAsync(int requestId)
@@ -37,6 +39,9 @@ namespace LeaveManagement.Services
             var user = await _context.Users.FindAsync(leaveRequest.UserId);
             if (user == null)
                 throw new Exception("User not found.");
+
+            if (user.Role != User.Roles.Employee)
+                throw new Exception("Only employees can apply for leave.");
 
             var leaveBalance = await _context.LeaveBalances.FirstOrDefaultAsync(lb => lb.UserId == leaveRequest.UserId);
             if (leaveBalance == null)
@@ -67,6 +72,11 @@ namespace LeaveManagement.Services
                 throw new Exception("Cannot delete an approved leave request.");
 
             await _leaveRequestRepository.DeleteLeaveRequestAsync(requestId);
+        }
+        public async Task UpdateLeaveRequestAsync(LeaveRequest leaveRequest)
+        {
+            _context.LeaveRequests.Update(leaveRequest);
+            await _context.SaveChangesAsync();
         }
     }
 }

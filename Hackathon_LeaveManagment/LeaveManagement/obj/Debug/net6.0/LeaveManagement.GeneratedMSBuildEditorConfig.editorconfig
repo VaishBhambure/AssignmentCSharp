@@ -20,6 +20,26 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/EmployeeLeave/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMZWF2ZVxBcHBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/EmployeeLeave/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMZWF2ZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/EmployeeLeave/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMZWF2ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/EmployeeLeave/LeaveBalance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMZWF2ZVxMZWF2ZUJhbGFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,12 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/Manager/ManagerDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNYW5hZ2VyRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/Manager/ViewLeaveRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxWaWV3TGVhdmVSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/OneDrive/Documents/GitHub/AssignmentCSharp/Hackathon_LeaveManagment/LeaveManagement/Views/User/Login.cshtml]

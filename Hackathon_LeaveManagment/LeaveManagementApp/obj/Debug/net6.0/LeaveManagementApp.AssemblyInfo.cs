@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeaveManagementApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4702b22d23af108e3b7d4045dbb137c5b88fc95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e67a783a32f85dca64722c9dfbb1882841e54136")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeaveManagementApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeaveManagementApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

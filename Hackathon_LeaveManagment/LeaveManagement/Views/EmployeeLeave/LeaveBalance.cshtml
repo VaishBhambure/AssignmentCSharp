@@ -1,0 +1,29 @@
+﻿@model LeaveManagement.Models.LeaveBalance
+
+@{
+    ViewData["Title"] = "Leave Balance";
+}
+
+<h2>Leave Balance</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<table class="table">
+    <tr>
+        <th>Total Leave Days</th>
+        <td>@Model.TotalLeaveDays</td>
+    </tr>
+    <tr>
+        <th>Remaining Leave Days</th>
+        <td>@Model.RemainingLeaveDays</td>
+    </tr>
+    <tr>
+        <th>Last Updated</th>
+        <td>@Model.LastUpdate.ToString("dd-MMM-yyyy")</td>
+    </tr>
+</table>
+
+<a href="@Url.Action("Dashboard", "EmployeeLeave")" class="btn btn-primary">Back to Dashboard</a>

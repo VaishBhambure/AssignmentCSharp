@@ -27,6 +27,12 @@ namespace LeaveManagementApp.Services
 
         public async Task AddLeaveRequestAsync(LeaveRequest leaveRequest)
         {
+
+            if (leaveRequest == null)
+            {
+                throw new ArgumentNullException(nameof(leaveRequest));
+            }
+
             await _leaveRequestRepository.AddLeaveRequestAsync(leaveRequest);
         }
 
@@ -34,6 +40,8 @@ namespace LeaveManagementApp.Services
         {
             return await _leaveRequestRepository.GetLeaveRequestsByUserIdAsync(userId);
         }
+
+
 
         public async Task DeleteLeaveRequestAsync(int requestId)
         {

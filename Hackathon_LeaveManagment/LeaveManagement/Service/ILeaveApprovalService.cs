@@ -8,5 +8,6 @@ namespace LeaveManagement.Service
         Task<LeaveApproval> GetLeaveApprovalByIdAsync(int approvalId);
         Task AddLeaveApprovalAsync(LeaveApproval approval);
         Task<IEnumerable<LeaveApproval>> GetApprovalsByManagerIdAsync(int managerId);
+        Task<bool> ApproveLeaveRequestAsync(int leaveRequestId, int managerId, bool isApproved, string managerComment);
     }
 }

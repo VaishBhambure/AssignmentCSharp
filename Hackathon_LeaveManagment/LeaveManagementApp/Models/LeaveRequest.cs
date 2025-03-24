@@ -1,6 +1,7 @@
-﻿using System;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+    
+
 
 public class LeaveRequest
 {
@@ -10,18 +11,22 @@ public class LeaveRequest
         Paid,
         Unpaid
     }
+
     public enum LeaveStatus
     {
         Pending = 1,
         Approved,
         Rejected
     }
+
     [Key]
     public int LeaveRequestId { get; set; }
 
-    [ForeignKey("User")]
-    public string UserId { get; set; } 
-    public User Employee { get; set; }
+    [Required]
+    public string UserId { get; set; }
+
+    [ForeignKey("UserId")]
+    public virtual User Employee { get; set; }  // ✅ Uses existing 'Id' from AspNetUsers
 
     public LeaveTypeEnum LeaveType { get; set; }
 
@@ -37,6 +42,8 @@ public class LeaveRequest
 
     public DateTime AppliedDate { get; set; } = DateTime.UtcNow;
 
+
+
     // Navigation Property
-    public LeaveApproval Approval { get; set; }
+    public LeaveApproval? Approval { get; set; } 
 }

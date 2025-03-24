@@ -23,7 +23,9 @@ namespace LeaveManagement.Repository
 
         public async Task<LeaveRequest> GetLeaveRequestByIdAsync(int requestId)
         {
-            return await _context.LeaveRequests.FindAsync(requestId);
+            return await _context.LeaveRequests
+                                         .Include(lr => lr.Employee) // If you need employee details
+                                         .FirstOrDefaultAsync(lr => lr.LeaveRequestId == requestId);
         }
 
         public async Task AddLeaveRequestAsync(LeaveRequest leaveRequest)
@@ -48,5 +50,12 @@ namespace LeaveManagement.Repository
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task UpdateLeaveRequestAsync(LeaveRequest leaveRequest)
+        {
+            _context.LeaveRequests.Update(leaveRequest);
+            await _context.SaveChangesAsync();
+        }
+
+
     }
 }

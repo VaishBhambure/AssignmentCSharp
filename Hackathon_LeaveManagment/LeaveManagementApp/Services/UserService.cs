@@ -77,5 +77,14 @@ namespace LeaveManagementApp.Services
         {
             await _signInManager.SignOutAsync();
         }
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            return await _userManager.FindByEmailAsync(email);
+        }
+
+        public async Task<IList<string>> GetUserRolesAsync(User user)
+        {
+            return await _userManager.GetRolesAsync(user);
+        }
     }
 }

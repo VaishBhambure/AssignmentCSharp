@@ -20,20 +20,11 @@ namespace LeaveManagement.Models
         [Required, EmailAddress]
         public string Email { get; set; }
 
-        [Required]
-        public string PasswordHash { get; set; } // Store hashed password
 
-        [NotMapped] // Not stored in DB
         [Required]
-        [DataType(DataType.Password)]
-        [StringLength(12, MinimumLength = 8, ErrorMessage = "Password must be between 8-12 characters.")]
-        public string Password { get; set; } // Used only for registration
+        [StringLength(256)] 
+        public string Password { get; set; } // Storing password directly (should be hashed in real use)
 
-        [NotMapped] // Not stored in DB
-        [Required]
-        [DataType(DataType.Password)]
-        [Compare("Password", ErrorMessage = "Passwords do not match.")]
-        public string ConfirmPassword { get; set; }
 
         [Required]
         public Roles Role { get; set; } = Roles.Employee; // Admin, Manager, Employee

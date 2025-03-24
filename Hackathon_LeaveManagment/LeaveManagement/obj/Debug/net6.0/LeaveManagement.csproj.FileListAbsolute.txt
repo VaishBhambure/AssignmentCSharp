@@ -262,3 +262,5 @@ C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Hackathon_LeaveManagmen
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Hackathon_LeaveManagment\LeaveManagement\obj\Debug\net6.0\LeaveManagement.pdb
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Hackathon_LeaveManagment\LeaveManagement\obj\Debug\net6.0\LeaveManagement.genruntimeconfig.cache
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Hackathon_LeaveManagment\LeaveManagement\obj\Debug\net6.0\ref\LeaveManagement.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Hackathon_LeaveManagment\LeaveManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Hackathon_LeaveManagment\LeaveManagement\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

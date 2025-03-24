@@ -1,49 +1,51 @@
 ﻿using LeaveManagement.Models;
-using LeaveManagement.Repository;
-using Microsoft.AspNetCore.Identity;
-using System;
-using System.Threading.Tasks;
+using LeaveManagement.ViewModels;
+using LeaveManagement.Context;
+using Microsoft.EntityFrameworkCore;
+using LeaveManagement.Utilities;
+using LeaveManagement.Service;
 
-namespace LeaveManagement.Service
+namespace LeaveManagement.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
-        private readonly PasswordHasher<User> _passwordHasher;
+        private readonly ApplicationDbContext _context;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(ApplicationDbContext context)
         {
-            _userRepository = userRepository;
-            _passwordHasher = new PasswordHasher<User>();
+            _context = context;
         }
 
-        public async Task<User> RegisterUserAsync(User user)
+        public async Task<bool> RegisterUserAsync(RegisterViewModel model)
         {
-            Console.WriteLine("Inside RegisterUserAsync");
-
-            if (await _userRepository.UserExistsAsync(user.Email))
+            if (await _context.Users.AnyAsync(u => u.Email == model.Email))
             {
-                Console.WriteLine("User already exists!");
-                throw new Exception("Email already exists.");
+                throw new Exception("Email is already in use.");
             }
 
-            // ✅ Hash password before storing
-            user.Password = _passwordHasher.HashPassword(user, user.Password);
-
-            var createdUser = await _userRepository.AddUserAsync(user);
-            if (createdUser == null)
+            var user = new User
             {
-                Console.WriteLine("Failed to save user to the database.");
-                throw new Exception("User registration failed.");
-            }
+                Name = model.Name,
+                Email = model.Email,
+                Password = PasswordHasher.HashPassword(model.Password),
+                Role = model.Role
+            };
 
-            Console.WriteLine("User saved successfully!");
-            return createdUser;
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+            return true;
         }
 
-        public async Task<User> GetUserByEmailAsync(string email)
+        public async Task<User?> AuthenticateUserAsync(string email, string password)
         {
-            return await _userRepository.GetUserByEmailAsync(email);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+
+            if (user != null && PasswordHasher.VerifyPassword(password, user.Password))
+            {
+                return user;
+            }
+
+            return null;
         }
     }
 }

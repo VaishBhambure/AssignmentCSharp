@@ -1,4 +1,5 @@
 ﻿using LeaveManagement.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagement.Services
 {
@@ -9,5 +10,7 @@ namespace LeaveManagement.Services
         Task AddLeaveRequestAsync(LeaveRequest leaveRequest);
         Task<IEnumerable<LeaveRequest>> GetLeaveRequestsByUserIdAsync(int userId);
         Task DeleteLeaveRequestAsync(int requestId);
+       Task UpdateLeaveRequestAsync(LeaveRequest leaveRequest);
+
     }
 }

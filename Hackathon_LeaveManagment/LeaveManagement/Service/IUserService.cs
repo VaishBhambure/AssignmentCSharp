@@ -1,11 +1,12 @@
 ﻿using LeaveManagement.Models;
-using System.Threading.Tasks;
+using LeaveManagement.ViewModels;
 
 namespace LeaveManagement.Service
 {
     public interface IUserService
     {
-        Task<User> RegisterUserAsync(User user);
-        Task<User> GetUserByEmailAsync(string email);
+        Task<bool> RegisterUserAsync(RegisterViewModel model);
+        Task<User?> AuthenticateUserAsync(string email, string password);
+
     }
 }

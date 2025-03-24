@@ -100,6 +100,9 @@ namespace LeaveManagement.Migrations
                     b.Property<int>("LeaveType")
                         .HasColumnType("int");
 
+                    b.Property<string>("ManagerComment")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Reason")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -139,7 +142,8 @@ namespace LeaveManagement.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<int>("Role")
                         .HasColumnType("int");
@@ -154,8 +158,16 @@ namespace LeaveManagement.Migrations
                             UserId = 1,
                             Email = "Vaish@gmail.com",
                             Name = "Vaishnavi",
-                            Password = "AQAAAAEAACcQAAAAEJut2qDKrFmxYJ+a1/3pBV85PdI0cuWPz2BxaG6MdqemIx7E1yyEO0j8QeKvPey8Iw==",
+                            Password = "paitRMUIN2LDZFlKojLFOVyK6I/8nrskys5ImJZa1ro=",
                             Role = 1
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            Email = "bhambure@gmail.com",
+                            Name = "Bhambure",
+                            Password = "j4xynUKA8o7xUfpx++/aM7UIcM9IXtx1PTnfs7baCJ4=",
+                            Role = 2
                         });
                 });
 
@@ -180,13 +192,13 @@ namespace LeaveManagement.Migrations
 
             modelBuilder.Entity("LeaveManagement.Models.LeaveBalance", b =>
                 {
-                    b.HasOne("LeaveManagement.Models.User", "Employee")
+                    b.HasOne("LeaveManagement.Models.User", "User")
                         .WithOne("LeaveBalance")
                         .HasForeignKey("LeaveManagement.Models.LeaveBalance", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Employee");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("LeaveManagement.Models.LeaveRequest", b =>
