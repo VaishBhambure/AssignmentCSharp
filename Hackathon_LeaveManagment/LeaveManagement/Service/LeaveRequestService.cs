@@ -36,6 +36,16 @@ namespace LeaveManagement.Services
 
         public async Task AddLeaveRequestAsync(LeaveRequest leaveRequest)
         {
+            if (leaveRequest.StartDate < DateTime.UtcNow.Date)
+            {
+                throw new Exception("Leave start date cannot be in the past.");
+            }
+
+            if (leaveRequest.StartDate > leaveRequest.EndDate)
+            {
+                throw new Exception("Leave start date cannot be after the end date.");
+            }
+
             var user = await _context.Users.FindAsync(leaveRequest.UserId);
             if (user == null)
                 throw new Exception("User not found.");
@@ -75,8 +85,18 @@ namespace LeaveManagement.Services
         }
         public async Task UpdateLeaveRequestAsync(LeaveRequest leaveRequest)
         {
+            if (leaveRequest.StartDate < DateTime.UtcNow.Date)
+            {
+                throw new Exception("Leave start date cannot be in the past.");
+            }
+
+            if (leaveRequest.StartDate > leaveRequest.EndDate)
+            {
+                throw new Exception("Leave start date cannot be after the end date.");
+            }
+
             _context.LeaveRequests.Update(leaveRequest);
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync(); ;
         }
     }
 }

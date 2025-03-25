@@ -64,6 +64,12 @@ namespace LeaveManagement.Controllers
 
             leaveRequest.UserId = userId.Value;
 
+            if (leaveRequest.StartDate < DateTime.UtcNow.Date)
+            {
+                TempData["Error"] = "Leave start date cannot be in the past.";
+                return View(leaveRequest);
+            }
+
             try
             {
                 await _leaveRequestService.AddLeaveRequestAsync(leaveRequest);
@@ -115,6 +121,7 @@ namespace LeaveManagement.Controllers
         // POST: EmployeeLeave/Edit/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
+       
         public async Task<IActionResult> Edit(int id, LeaveRequest updatedLeaveRequest)
         {
             var userId = GetUserIdFromClaims();
@@ -131,6 +138,18 @@ namespace LeaveManagement.Controllers
             {
                 TempData["ErrorMessage"] = "You can only update pending leave requests.";
                 return RedirectToAction("Dashboard");
+            }
+
+            if (updatedLeaveRequest.StartDate < DateTime.UtcNow.Date)
+            {
+                TempData["ErrorMessage"] = "Leave start date cannot be in the past.";
+                return View(updatedLeaveRequest);
+            }
+
+            if (updatedLeaveRequest.StartDate > updatedLeaveRequest.EndDate)
+            {
+                TempData["ErrorMessage"] = "Leave start date cannot be after the end date.";
+                return View(updatedLeaveRequest);
             }
 
             existingRequest.StartDate = updatedLeaveRequest.StartDate;
@@ -150,7 +169,6 @@ namespace LeaveManagement.Controllers
                 return View(updatedLeaveRequest);
             }
         }
-       
 
         [HttpPost]
         public async Task<IActionResult> LeaveBalance()
