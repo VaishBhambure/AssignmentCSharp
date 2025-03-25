@@ -1,83 +1,4 @@
-﻿//using LeaveManagement.Models;
-//using LeaveManagement.Services;
-//using Microsoft.AspNetCore.Authorization;
-//using Microsoft.AspNetCore.Mvc;
-//using System;
-//using System.Security.Claims;
-//using System.Threading.Tasks;
-
-//namespace LeaveManagement.Controllers
-//{
-//    //[Authorize] // Ensures only authenticated users can access
-
-//    [Authorize(Roles = "Employee")]
-//    public class EmployeeLeaveController : Controller
-//    {
-//        private readonly ILeaveRequestService _leaveRequestService;
-
-//        public EmployeeLeaveController(ILeaveRequestService leaveRequestService)
-//        {
-//            _leaveRequestService = leaveRequestService;
-//        }
-
-//        // GET: EmployeeLeave/Dashboard
-
-//        //public async Task<IActionResult> Dashboard()
-//        //{
-//        //    //var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-//        //    //if (string.IsNullOrEmpty(userIdClaim)) return RedirectToAction("Login", "Account");
-
-//        //    //int userId = int.Parse(userIdClaim);
-//        //    //var leaveRequests = await _leaveRequestService.GetLeaveRequestsByUserIdAsync(userId);
-
-//        //    //return View(leaveRequests);
-//        //    var leaveRequests = await _leaveRequestService.GetAllLeaveRequestsAsync();
-//        //    return View(leaveRequests);
-//        //}
-
-//        public async Task<IActionResult> Dashboard()
-//        {
-//            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-//            if (string.IsNullOrEmpty(userIdClaim)) return RedirectToAction("Login", "User");
-
-//            int userId = int.Parse(userIdClaim);
-//            var leaveRequests = await _leaveRequestService.GetLeaveRequestsByUserIdAsync(userId);
-
-//            return View(leaveRequests);
-//        }
-//        // GET: EmployeeLeave/Apply
-//        public IActionResult Apply()
-//        {
-//            return View();
-//        }
-
-//        // POST: EmployeeLeave/Apply
-//        [HttpPost]
-//        [ValidateAntiForgeryToken]
-//        public async Task<IActionResult> Apply(LeaveRequest leaveRequest)
-//        {
-//            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-//            if (string.IsNullOrEmpty(userIdClaim)) return RedirectToAction("Login", "Account");
-
-//            int userId = int.Parse(userIdClaim);
-//            leaveRequest.UserId = userId;
-
-//            try
-//            {
-//                await _leaveRequestService.AddLeaveRequestAsync(leaveRequest);
-//                TempData["Success"] = "Leave request submitted successfully!";
-//                return RedirectToAction("Dashboard");
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["Error"] = ex.Message;
-//                return View(leaveRequest);
-//            }
-//        }
-//    }
-//}
-
-
+﻿
 
 using LeaveManagement.Models;
 using LeaveManagement.Services;
@@ -122,7 +43,7 @@ namespace LeaveManagement.Controllers
             var leaveRequests = await _leaveRequestService.GetLeaveRequestsByUserIdAsync(userId.Value);
             var leaveBalance = await _leaveBalanceService.GetLeaveBalanceByUserIdAsync(userId.Value);
 
-            // Pass both leave requests and leave balance to the view
+
             return View(Tuple.Create(leaveRequests, leaveBalance));
         }
 
@@ -229,6 +150,7 @@ namespace LeaveManagement.Controllers
                 return View(updatedLeaveRequest);
             }
         }
+       
 
         [HttpPost]
         public async Task<IActionResult> LeaveBalance()

@@ -131,32 +131,53 @@ public class LeaveApprovalService : ILeaveApprovalService
     public async Task<IEnumerable<LeaveApproval>> GetAllLeaveApprovalsAsync()
     {
         return await _context.LeaveApprovals
-            .Include(a => a.LeaveRequest)
-            .Include(a => a.Manager)
-            .ToListAsync();
+               .Include(a => a.LeaveRequest)
+                   .ThenInclude(lr => lr.Employee)  // Include employee details
+               .Include(a => a.Manager)           // Include manager details
+               .ToListAsync();
     }
 
     public async Task<LeaveApproval> GetLeaveApprovalByIdAsync(int approvalId)
     {
-        var approval = await _leaveApprovalRepository.GetLeaveApprovalByIdAsync(approvalId);
+        var approval = await _context.LeaveApprovals
+              .Include(a => a.LeaveRequest)
+                  .ThenInclude(lr => lr.Employee)
+              .Include(a => a.Manager)
+              .FirstOrDefaultAsync(a => a.ManagerId == approvalId);
+
         if (approval == null)
-            throw new LeaveRequestNotFoundException(approvalId);
+            throw new LeaveRequestNotFoundException($"Leave approval with ID {approvalId} not found.");
+
         return approval;
+
     }
 
     public async Task AddLeaveApprovalAsync(LeaveApproval approval)
     {
         await _leaveApprovalRepository.AddLeaveApprovalAsync(approval);
     }
-    public async Task<bool> ApproveLeaveRequestAsync(int leaveRequestId, int managerId, bool isApproved, string managerComment)
+    public async Task<bool> ApproveLeaveRequestAsync(int leaveRequestId, int managerId, LeaveApproval.ApprovalStatusEnum status, string managerComment)
     {
         // Retrieve the leave request
         var leaveRequest = await _context.LeaveRequests.FindAsync(leaveRequestId);
         if (leaveRequest == null)
             throw new LeaveRequestNotFoundException(leaveRequestId);
 
-        // If approved, check and update leave balance logic
-        if (isApproved)
+        //// If approved, check and update leave balance logic
+        //if (status == LeaveApproval.ApprovalStatusEnum.Approved)
+        //{
+        //    var leaveBalance = await _context.LeaveBalances
+        //                                     .FirstOrDefaultAsync(lb => lb.UserId == leaveRequest.UserId);
+        //    if (leaveBalance == null)
+        //        throw new Exception($"Leave balance record not found for user {leaveRequest.UserId}.");
+
+        //    if (leaveBalance.RemainingLeaveDays < leaveRequest.NumberOfDays)
+        //        throw new Exception($"Insufficient leave balance for user {leaveRequest.UserId}.");
+
+        //    leaveBalance.RemainingLeaveDays -= leaveRequest.NumberOfDays;
+        //    leaveBalance.LastUpdate = DateTime.UtcNow;
+        //}
+        if (status == LeaveApproval.ApprovalStatusEnum.Approved)
         {
             var leaveBalance = await _context.LeaveBalances
                                              .FirstOrDefaultAsync(lb => lb.UserId == leaveRequest.UserId);
@@ -168,14 +189,17 @@ public class LeaveApprovalService : ILeaveApprovalService
 
             leaveBalance.RemainingLeaveDays -= leaveRequest.NumberOfDays;
             leaveBalance.LastUpdate = DateTime.UtcNow;
+
+            _context.LeaveBalances.Update(leaveBalance); // ✅ Explicitly update balance
         }
+
 
         // Create a new leave approval record
         var leaveApproval = new LeaveApproval
         {
             LeaveRequestId = leaveRequestId,
             ManagerId = managerId,
-            ApprovalStatus = isApproved ? LeaveApproval.ApprovalStatusEnum.Approved : LeaveApproval.ApprovalStatusEnum.Rejected,
+            ApprovalStatus = status,  // Use enum directly
             Comments = managerComment,
             ReviewedDate = DateTime.UtcNow
         };
@@ -199,8 +223,14 @@ public class LeaveApprovalService : ILeaveApprovalService
 
 
 
+
     public async Task<IEnumerable<LeaveApproval>> GetApprovalsByManagerIdAsync(int managerId)
     {
-        return await _leaveApprovalRepository.GetApprovalsByManagerIdAsync(managerId);
+        return await _context.LeaveApprovals
+        .Where(a => a.ManagerId == managerId) // Ensure managerId is being used
+        .Include(a => a.LeaveRequest)
+            .ThenInclude(lr => lr.Employee)
+        .Include(a => a.Manager)    
+        .ToListAsync();
     }
 }

@@ -1,5 +1,29 @@
 ﻿@model Tuple<IEnumerable<LeaveManagement.Models.LeaveRequest>, LeaveManagement.Models.LeaveBalance>
 
+<h2>My Leave Balance</h2>
+
+@if (Model.Item2 != null)
+{
+    <table class="table">
+        <tr>
+            <th>Total Leave Days</th>
+            <td>@Model.Item2.TotalLeaveDays</td>
+        </tr>
+        <tr>
+            <th>Remaining Leave Days</th>
+            <td>@Model.Item2.RemainingLeaveDays</td>
+        </tr>
+        <tr>
+            <th>Last Updated</th>
+            <td>@Model.Item2.LastUpdate.ToString("dd-MMM-yyyy")</td>
+        </tr>
+    </table>
+}
+else
+{
+    <p class="text-danger">Leave balance data is not available.</p>
+}
+
 <h2>My Leave Requests</h2>
 
 <a class="btn btn-primary" asp-controller="EmployeeLeave" asp-action="Apply">Apply for Leave</a>
@@ -52,5 +76,3 @@
         }
     </tbody>
 </table>
-
-

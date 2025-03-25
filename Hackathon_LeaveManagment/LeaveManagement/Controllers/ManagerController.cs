@@ -1,102 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using LeaveManagement.Models;
-using LeaveManagement.Service;
-using System.Collections.Generic;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using LeaveManagement.Services;
-
-namespace LeaveManagement.Controllers
-{
-    [Authorize(Roles = "Manager")]
-    public class ManagerController : Controller
-    {
-        private readonly ILeaveRequestService _leaveRequestService;
-        private readonly ILeaveApprovalService _leaveApprovalService;
-
-        public ManagerController(ILeaveRequestService leaveRequestService,
-                                 ILeaveApprovalService leaveApprovalService)
-        {
-            _leaveRequestService = leaveRequestService;
-            _leaveApprovalService = leaveApprovalService;
-        }
-
-        // Displays the dashboard with all leave requests.
-        public async Task<IActionResult> ManagerDashboard()
-        {
-            var leaveRequests = await _leaveRequestService.GetAllLeaveRequestsAsync()
-                                ?? new List<LeaveRequest>();
-            return View(leaveRequests);
-        }
-
-        // Displays a specific leave request.
-        public async Task<IActionResult> ViewLeaveRequest(int id)
-        {
-            var leaveRequest = await _leaveRequestService.GetLeaveRequestByIdAsync(id);
-            if (leaveRequest == null)
-                return NotFound();
-
-            return View(leaveRequest);
-        }
-
-        // POST: Approve a leave request using the leave approval service.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ApproveLeave(int leaveRequestId, string managerComment)
-        {
-            int managerId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            try
-            {
-                bool result = await _leaveApprovalService.ApproveLeaveRequestAsync(
-                    leaveRequestId,
-                    managerId,
-                    isApproved: true,
-                    managerComment: managerComment
-                );
-
-                TempData["SuccessMessage"] = result
-                    ? "Leave request approved successfully."
-                    : "Error processing leave request.";
-            }
-            catch (System.Exception ex)
-            {
-                TempData["ErrorMessage"] = ex.Message;
-            }
-            return RedirectToAction("ManagerDashboard");
-        }
-
-        // POST: Reject a leave request using the leave approval service.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> RejectLeave(int leaveRequestId, string managerComment)
-        {
-            int managerId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            try
-            {
-                bool result = await _leaveApprovalService.ApproveLeaveRequestAsync(
-                    leaveRequestId,
-                    managerId,
-                    isApproved: false,
-                    managerComment: managerComment
-                );
-
-                TempData["SuccessMessage"] = result
-                    ? "Leave request rejected successfully."
-                    : "Error processing leave request.";
-            }
-            catch (System.Exception ex)
-            {
-                TempData["ErrorMessage"] = ex.Message;
-            }
-            return RedirectToAction("ManagerDashboard");
-        }
-    }
-}
-
-
-
-//using Microsoft.AspNetCore.Authorization;
+﻿//using Microsoft.AspNetCore.Authorization;
 //using Microsoft.AspNetCore.Mvc;
 //using LeaveManagement.Services;
 //using LeaveManagement.Models;
@@ -219,137 +121,132 @@ namespace LeaveManagement.Controllers
 
 
 
-//using Microsoft.AspNetCore.Authorization;
-//using Microsoft.AspNetCore.Mvc;
-//using LeaveManagement.Services;
-//using LeaveManagement.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using LeaveManagement.Services;
+using LeaveManagement.Models;
+using LeaveManagement.Service;
+using LeaveManagement.Exceptions;
+using Microsoft.EntityFrameworkCore;
+using LeaveManagement.Context;
 
-//using System.Threading.Tasks;
-//using LeaveManagement.Service;
-//using Microsoft.EntityFrameworkCore;
+namespace LeaveManagement.Controllers
+{
+    [Authorize(Roles = "Manager")]
+    public class ManagerController : Controller
+    {
+        private readonly ILeaveRequestService _leaveRequestService;
+        private readonly ILeaveApprovalService _leaveApprovalService;
+        private readonly ILeaveBalanceService _leaveBalanceService;
+        private readonly ApplicationDbContext _context;
 
-//namespace LeaveManagement.Controllers
-//{
-//    [Authorize(Roles = "Manager")]
-//    public class ManagerController : Controller
-//    {
-//        private readonly ILeaveRequestService _leaveRequestService;
-//        private readonly ILeaveApprovalService _leaveApprovalService;
-//        private readonly ILeaveBalanceService _leaveBalanceService;
+        public ManagerController(ILeaveRequestService leaveRequestService,
+                                 ILeaveApprovalService leaveApprovalService,
+                                 ILeaveBalanceService leaveBalanceService,
+                                 ApplicationDbContext context)
+        {
+            _leaveRequestService = leaveRequestService;
+            _leaveApprovalService = leaveApprovalService;
+            _leaveBalanceService = leaveBalanceService;
+            _context = context;
+        }
+      
 
-//        public ManagerController(ILeaveRequestService leaveRequestService,
-//                                 ILeaveApprovalService leaveApprovalService,
-//                                 ILeaveBalanceService leaveBalanceService)
-//        {
-//            _leaveRequestService = leaveRequestService;
-//            _leaveApprovalService = leaveApprovalService;
-//            _leaveBalanceService = leaveBalanceService;
-//        }
+        // ✅ Manager Dashboard - Shows Pending, Approved & Rejected Requests
+        public async Task<IActionResult> ManagerDashboard()
+        {
+            var leaveRequests = await _leaveRequestService.GetAllLeaveRequestsAsync();
+            var leaveApprovals = await _leaveApprovalService.GetAllLeaveApprovalsAsync(); // Get all approvals
 
-//        /// <summary>
-//        /// Retrieves all leave requests and their approval details.
-//        /// </summary>
-//        /// <returns>A view displaying leave requests with their approval status.</returns>
-//        public async Task<IActionResult> ManagerDashboard()
-//        {
-//            var leaveRequests = await _leaveRequestService.GetAllLeaveRequestsAsync();
-//            var leaveApprovals = await _leaveApprovalService.GetAllLeaveApprovalsAsync(); // Fetch all approvals
+            var leaveRequestList = leaveRequests.Select(leave => new LeaveRequest
+            {
+                LeaveRequestId = leave.LeaveRequestId,
+                UserId = leave.UserId,
+                Employee = leave.Employee, // Navigation property
+                LeaveType = leave.LeaveType,
+                StartDate = leave.StartDate,
+                EndDate = leave.EndDate,
+                Status = leave.Status,
+                Reason = leave.Reason, // Employee's reason for leave
+                AppliedDate = leave.AppliedDate,
+                LeaveApproval = leaveApprovals.FirstOrDefault(a => a.LeaveRequestId == leave.LeaveRequestId) // Fetch approval details
+            }).ToList();
 
-//            var leaveRequestList = leaveRequests.Select(leave => new LeaveRequest
-//            {
-//                LeaveRequestId = leave.LeaveRequestId,
-//                UserId = leave.UserId,
-//                Employee = leave.Employee,
-//                LeaveType = leave.LeaveType,
-//                StartDate = leave.StartDate,
-//                EndDate = leave.EndDate,
-//                Status = leave.Status,
-//                Reason = leave.Reason,
-//                AppliedDate = leave.AppliedDate,
-//                LeaveApproval = leaveApprovals.FirstOrDefault(a => a.LeaveRequestId == leave.LeaveRequestId)
-//            }).ToList();
+            return View(leaveRequestList);
+        }
 
-//            return View(leaveRequestList);
-//        }
+        // ✅ View Individual Leave Request Details
+        public async Task<IActionResult> ViewLeaveRequest(int id)
+        {
+            var leaveRequest = await _leaveRequestService.GetLeaveRequestByIdAsync(id);
+            if (leaveRequest == null)
+                return NotFound();
 
-//        /// <summary>
-//        /// Retrieves the details of a specific leave request.
-//        /// </summary>
-//        /// <param name="id">The unique ID of the leave request.</param>
-//        /// <returns>The leave request details view.</returns>
-//        public async Task<IActionResult> ViewLeaveRequest(int id)
-//        {
-//            var leaveRequest = await _leaveRequestService.GetLeaveRequestByIdAsync(id);
-//            if (leaveRequest == null)
-//                return NotFound();
+            return View(leaveRequest);
+        }
+        [HttpPost()]
+        public async Task<IActionResult> ApproveLeave(int leaveRequestId, string managerComment)
+        {
+            var leaveRequest = await _context.LeaveRequests.FindAsync(leaveRequestId);
+            if (leaveRequest == null)
+                return NotFound();
 
-//            return View(leaveRequest);
-//        }
+            // Fetch Leave Balance
+            var leaveBalance = await _context.LeaveBalances.FirstOrDefaultAsync(lb => lb.UserId == leaveRequest.UserId);
+            if (leaveBalance == null)
+                return BadRequest("Leave balance record not found.");
 
-//        /// <summary>
-//        /// Approves a leave request and updates the database.
-//        /// </summary>
-//        /// <param name="leaveRequestId">The ID of the leave request to approve.</param>
-//        /// <param name="managerComment">Optional comment from the manager.</param>
-//        /// <returns>Redirects to Manager Dashboard.</returns>
-//        [HttpPost]
-//        public IActionResult ApproveLeave(int id)
-//        {
-//            var leaveRequest = _leaveRequestService.LeaveRequests.Find(id);
-//            if (leaveRequest == null)
-//            {
-//                return NotFound();
-//            }
+            // ✅ Check if there's enough leave balance
+            if (leaveBalance.RemainingLeaveDays < leaveRequest.NumberOfDays)
+                return BadRequest("Insufficient leave balance.");
 
-//            leaveRequest.Status = "Approved";
-//            _leaveRequestService.SaveChanges();
+            // ✅ Deduct leave balance
+            leaveBalance.RemainingLeaveDays -= leaveRequest.NumberOfDays;
+            leaveBalance.LastUpdate = DateTime.UtcNow;
 
-//            return RedirectToAction("ManagerDashboard");
-//        }
+            // ✅ Update Leave Request Status to Approved
+            leaveRequest.Status = LeaveRequest.LeaveStatusEnum.Approved;
+            leaveRequest.ManagerComment = managerComment;
+
+            _context.LeaveBalances.Update(leaveBalance);
+            _context.LeaveRequests.Update(leaveRequest);
+            await _context.SaveChangesAsync();
+
+            TempData["SuccessMessage"] = "Leave request approved successfully.";
+            return RedirectToAction("ManagerDashboard");
+        }
 
 
 
-//        /// <summary>
-//        /// Rejects a leave request and updates the status.
-//        /// </summary>
-//        /// <param name="leaveRequestId">The ID of the leave request to reject.</param>
-//        /// <param name="managerComment">Optional comment explaining the rejection.</param>
-//        /// <returns>Redirects to Manager Dashboard.</returns>
-//        [HttpPost]
-//        public async Task<IActionResult> RejectLeave(int leaveRequestId, string managerComment)
-//        {
-//            try
-//            {
-//                var leaveRequest = await _leaveRequestService.GetLeaveRequestByIdAsync(leaveRequestId);
-//                if (leaveRequest == null) return NotFound();
+        // ✅ Reject Leave Request
+        [HttpPost]
+        public async Task<IActionResult> RejectLeave(int leaveRequestId)
+        {
+            try
+            {
+                var leaveRequest = await _leaveRequestService.GetLeaveRequestByIdAsync(leaveRequestId);
+                if (leaveRequest == null) return NotFound();
 
-//                if (leaveRequest.Status != LeaveRequest.LeaveStatusEnum.Pending)
-//                {
-//                    TempData["ErrorMessage"] = "Leave request has already been processed.";
-//                    return RedirectToAction("ManagerDashboard");
-//                }
+                if (leaveRequest.Status != LeaveRequest.LeaveStatusEnum.Pending)
+                {
+                    TempData["ErrorMessage"] = "Leave request has already been processed.";
+                    return RedirectToAction("ManagerDashboard");
+                }
 
-//                // ✅ Reject the leave request
-//                leaveRequest.Status = LeaveRequest.LeaveStatusEnum.Rejected;
+                // ✅ Reject the leave request
+                leaveRequest.Status = LeaveRequest.LeaveStatusEnum.Rejected;
+                await _leaveRequestService.UpdateLeaveRequestAsync(leaveRequest);
 
-//                // ✅ Save manager's comment if provided
-//                if (!string.IsNullOrEmpty(managerComment))
-//                {
-//                    leaveRequest.ManagerComment = managerComment;
-//                }
+                TempData["SuccessMessage"] = "Leave request rejected successfully.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+            }
 
-//                await _leaveRequestService.UpdateLeaveRequestAsync(leaveRequest);
-
-//                TempData["SuccessMessage"] = "Leave request rejected successfully.";
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["ErrorMessage"] = ex.Message;
-//            }
-
-//            return RedirectToAction("ManagerDashboard");
-//        }
-//    }
-//}
+            return RedirectToAction("ManagerDashboard");
+        }
+    }
+}
 
 
