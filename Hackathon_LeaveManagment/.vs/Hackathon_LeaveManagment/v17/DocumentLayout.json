@@ -3,68 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Migrations\\20250323180307_hashadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveManagement\\Migrations\\20250323180307_hashadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\views\\employeeleave\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\views\\employeeleave\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Migrations\\20250323175714_newdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveManagement\\Migrations\\20250323175714_newdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\service\\leaveapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\service\\leaveapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\controllers\\employeedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\controllers\\employeedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\repository\\leaveapprovalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,6 +17,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\models\\leaveapproval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\models\\leaveapproval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\service\\leaveapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\service\\leaveapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\views\\manager\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\views\\manager\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\models\\leavebalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\models\\leavebalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\hackathon_leavemanagment\\leavemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3950A873-D260-4E31-91C1-084568006D18}|LeaveManagement\\LeaveManagement.csproj|solutionrelative:leavemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -91,136 +63,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250323180307_hashadmin.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Migrations\\20250323180307_hashadmin.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Migrations\\20250323180307_hashadmin.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Migrations\\20250323180307_hashadmin.cs",
-              "RelativeToolTip": "LeaveManagement\\Migrations\\20250323180307_hashadmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T18:03:07.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250323175714_newdatabase.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Migrations\\20250323175714_newdatabase.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Migrations\\20250323175714_newdatabase.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Migrations\\20250323175714_newdatabase.cs",
-              "RelativeToolTip": "LeaveManagement\\Migrations\\20250323175714_newdatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:57:15.068Z",
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\EmployeeLeave\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagement\\Views\\EmployeeLeave\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\EmployeeLeave\\Dashboard.cshtml*",
+              "RelativeToolTip": "LeaveManagement\\Views\\EmployeeLeave\\Dashboard.cshtml*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAvTcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T11:08:08.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LeaveManagement\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwC0AAAAKAAAAAAAAAA==",
+              "Title": "EmployeeDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\EmployeeDashboardController.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Controllers\\EmployeeDashboardController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\EmployeeDashboardController.cs",
+              "RelativeToolTip": "LeaveManagement\\Controllers\\EmployeeDashboardController.cs",
+              "ViewState": "AgIAAJ4AAAAAHzMzMxM2wNAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:42:45.694Z",
+              "WhenOpened": "2025-03-24T11:07:15.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Service\\IUserService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\IUserService.cs",
-              "RelativeToolTip": "LeaveManagement\\Service\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LeaveApproval.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveApproval.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Models\\LeaveApproval.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveApproval.cs",
+              "RelativeToolTip": "LeaveManagement\\Models\\LeaveApproval.cs",
+              "ViewState": "AgIAAAIAAACAMjMzMzMLwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:07:00.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "LeaveManagement\\Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "LeaveManagement\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T17:03:58.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\UserController.cs",
-              "RelativeToolTip": "LeaveManagement\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAHEAAACAZ2ZmZmYkwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:34:40.878Z",
+              "WhenOpened": "2025-03-24T11:04:08.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Utilities\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Utilities\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Utilities\\PasswordHasher.cs",
-              "RelativeToolTip": "LeaveManagement\\Utilities\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "LeaveApprovalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
+              "RelativeToolTip": "LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
+              "ViewState": "AgIAADYAAAAAOTMzMzPzv1AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:00:18.256Z",
+              "WhenOpened": "2025-03-24T10:47:32.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "LeaveManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\appsettings.json",
-              "RelativeToolTip": "LeaveManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-23T17:56:38.763Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "ManagerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\Manager\\ManagerDashboard.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagement\\Views\\Manager\\ManagerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\Manager\\ManagerDashboard.cshtml",
+              "RelativeToolTip": "LeaveManagement\\Views\\Manager\\ManagerDashboard.cshtml",
+              "ViewState": "AgIAAB8AAABAMTMzMzMbwCQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T10:36:04.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaveRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveRequest.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Models\\LeaveRequest.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveRequest.cs",
+              "RelativeToolTip": "LeaveManagement\\Models\\LeaveRequest.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:20:15.772Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\UserService.cs",
-              "RelativeToolTip": "LeaveManagement\\Service\\UserService.cs",
-              "ViewState": "AgIAAAoAAABAZmZmZmYswAkAAAAmAAAAAAAAAA==",
+              "Title": "LeaveBalance.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveBalance.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Models\\LeaveBalance.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveBalance.cs",
+              "RelativeToolTip": "LeaveManagement\\Models\\LeaveBalance.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:27:21.362Z",
+              "WhenOpened": "2025-03-24T10:17:32.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeaveApprovalService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\LeaveApprovalService.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Service\\LeaveApprovalService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\LeaveApprovalService.cs",
+              "RelativeToolTip": "LeaveManagement\\Service\\LeaveApprovalService.cs",
+              "ViewState": "AgIAAK0AAAAAZWZmZmYawMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:41:48.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "LeaveManagement\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "LeaveManagement\\Views\\User\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T16:38:50.267Z",
-              "EditorCaption": ""
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "LeaveManagement\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:07:25.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Program.cs",
               "RelativeDocumentMoniker": "LeaveManagement\\Program.cs",
@@ -228,99 +183,19 @@
               "RelativeToolTip": "LeaveManagement\\Program.cs",
               "ViewState": "AgIAAAYAAAAgMzMzMzMrwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:44:49.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:44:49.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "LeaveManagement\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAA0AAACg//////8nwBsAAABDAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Utilities\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "LeaveManagement\\Utilities\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Utilities\\PasswordHasher.cs",
+              "RelativeToolTip": "LeaveManagement\\Utilities\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:22:10.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "LeaveManagement\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAZGZmZmb0vwMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:29:44.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\User.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\User.cs",
-              "RelativeToolTip": "LeaveManagement\\Models\\User.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:17:52.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ManagerController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\ManagerController.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Controllers\\ManagerController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Controllers\\ManagerController.cs",
-              "RelativeToolTip": "LeaveManagement\\Controllers\\ManagerController.cs",
-              "ViewState": "AgIAAMwAAACAMzMzMzMbwNsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:07:25.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LeaveApprovalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
-              "RelativeToolTip": "LeaveManagement\\Repository\\LeaveApprovalRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:07:15.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LeaveApproval.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveApproval.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Models\\LeaveApproval.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Models\\LeaveApproval.cs",
-              "RelativeToolTip": "LeaveManagement\\Models\\LeaveApproval.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:51:03.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LeaveApprovalService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\LeaveApprovalService.cs",
-              "RelativeDocumentMoniker": "LeaveManagement\\Service\\LeaveApprovalService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Hackathon_LeaveManagment\\LeaveManagement\\Service\\LeaveApprovalService.cs",
-              "RelativeToolTip": "LeaveManagement\\Service\\LeaveApprovalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:41:48.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T17:00:18.256Z"
             }
           ]
         }

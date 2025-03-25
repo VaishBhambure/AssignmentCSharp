@@ -36,8 +36,18 @@ namespace LeaveManagement.Repository
         public async Task AddLeaveApprovalAsync(LeaveApproval approval)
         {
             await _context.LeaveApprovals.AddAsync(approval);
-            await _context.SaveChangesAsync();
-
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException dbEx)
+            {
+                // Log detailed error information
+                Console.WriteLine("Error saving changes in AddLeaveApprovalAsync:");
+                Console.WriteLine("Message: " + dbEx.Message);
+                Console.WriteLine("Inner Exception: " + dbEx.InnerException?.Message);
+                throw; // Optionally rethrow or handle accordingly
+            }
         }
 
         public async Task<IEnumerable<LeaveApproval>> GetApprovalsByManagerIdAsync(int managerId)
@@ -47,13 +57,24 @@ namespace LeaveManagement.Repository
                                  .Include(la => la.LeaveRequest)
                                  .ToListAsync();
         }
+
         public async Task<bool> UpdateLeaveApprovalAsync(LeaveApproval leaveApproval)
         {
-            
             Console.WriteLine($"Updating LeaveApproval: ApprovalId={leaveApproval.ApprovalId}, Comments={leaveApproval.Comments}");
 
             _context.LeaveApprovals.Update(leaveApproval);
-            return await _context.SaveChangesAsync() > 0;
+            try
+            {
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch (DbUpdateException dbEx)
+            {
+                // Log detailed error information
+                Console.WriteLine("Error saving changes in UpdateLeaveApprovalAsync:");
+                Console.WriteLine("Message: " + dbEx.Message);
+                Console.WriteLine("Inner Exception: " + dbEx.InnerException?.Message);
+                throw; // Optionally rethrow or handle accordingly
+            }
         }
     }
 }

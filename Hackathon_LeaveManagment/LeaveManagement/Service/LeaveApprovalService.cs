@@ -140,71 +140,64 @@ public class LeaveApprovalService : ILeaveApprovalService
     {
         var approval = await _leaveApprovalRepository.GetLeaveApprovalByIdAsync(approvalId);
         if (approval == null)
-            throw new LeaveRequestNotFoundException("Leave approval not found.");
+            throw new LeaveRequestNotFoundException(approvalId);
         return approval;
     }
 
     public async Task AddLeaveApprovalAsync(LeaveApproval approval)
     {
-        _context.LeaveApprovals.Add(approval);
-        await _context.SaveChangesAsync();
+        await _leaveApprovalRepository.AddLeaveApprovalAsync(approval);
     }
-
     public async Task<bool> ApproveLeaveRequestAsync(int leaveRequestId, int managerId, bool isApproved, string managerComment)
     {
-        using (var transaction = await _context.Database.BeginTransactionAsync())
+        // Retrieve the leave request
+        var leaveRequest = await _context.LeaveRequests.FindAsync(leaveRequestId);
+        if (leaveRequest == null)
+            throw new LeaveRequestNotFoundException(leaveRequestId);
+
+        // If approved, check and update leave balance logic
+        if (isApproved)
         {
-            try
-            {
-                var leaveRequest = await _leaveRequestRepository.GetLeaveRequestByIdAsync(leaveRequestId);
-                if (leaveRequest == null || leaveRequest.Status != LeaveRequest.LeaveStatusEnum.Pending)
-                    return false;
+            var leaveBalance = await _context.LeaveBalances
+                                             .FirstOrDefaultAsync(lb => lb.UserId == leaveRequest.UserId);
+            if (leaveBalance == null)
+                throw new Exception($"Leave balance record not found for user {leaveRequest.UserId}.");
 
-                if (isApproved)
-                {
-                    int leaveDays = (leaveRequest.EndDate - leaveRequest.StartDate).Days + 1;
+            if (leaveBalance.RemainingLeaveDays < leaveRequest.NumberOfDays)
+                throw new Exception($"Insufficient leave balance for user {leaveRequest.UserId}.");
 
-                    var leaveBalance = await _leaveBalanceRepository.GetLeaveBalanceByUserIdAsync(leaveRequest.UserId);
-                    if (leaveBalance == null || leaveBalance.RemainingLeaveDays < leaveDays)
-                        return false;  // Not enough leave balance
-
-                    // Deduct leave days
-                    leaveBalance.RemainingLeaveDays -= leaveDays;
-                    leaveBalance.TotalLeaveDays += leaveDays;
-                    await _leaveBalanceRepository.UpdateLeaveBalanceAsync(leaveBalance);
-                }
-
-                // Update leave request status
-                leaveRequest.Status = isApproved ? LeaveRequest.LeaveStatusEnum.Approved : LeaveRequest.LeaveStatusEnum.Rejected;
-                await _leaveRequestRepository.UpdateLeaveRequestAsync(leaveRequest);
-
-                // Save approval details
-                var leaveApproval = new LeaveApproval
-                {
-                    LeaveRequestId = leaveRequestId,
-                    ManagerId = managerId,
-                    ApprovalStatus = isApproved ? LeaveApproval.ApprovalStatusEnum.Approved : LeaveApproval.ApprovalStatusEnum.Rejected,
-                    ReviewedDate = DateTime.UtcNow,
-                    Comments = managerComment
-                };
-
-                await _leaveApprovalRepository.AddLeaveApprovalAsync(leaveApproval);
-
-                // Commit transaction
-                await transaction.CommitAsync();
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                // Rollback transaction in case of error
-                await transaction.RollbackAsync();
-                // Log the exception (consider using a logging framework like Serilog or NLog)
-                Console.WriteLine($"Error approving leave request: {ex.Message}");
-                return false;
-            }
+            leaveBalance.RemainingLeaveDays -= leaveRequest.NumberOfDays;
+            leaveBalance.LastUpdate = DateTime.UtcNow;
         }
+
+        // Create a new leave approval record
+        var leaveApproval = new LeaveApproval
+        {
+            LeaveRequestId = leaveRequestId,
+            ManagerId = managerId,
+            ApprovalStatus = isApproved ? LeaveApproval.ApprovalStatusEnum.Approved : LeaveApproval.ApprovalStatusEnum.Rejected,
+            Comments = managerComment,
+            ReviewedDate = DateTime.UtcNow
+        };
+
+        await _context.LeaveApprovals.AddAsync(leaveApproval);
+
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateException dbEx)
+        {
+            Console.WriteLine("Error saving changes in ApproveLeaveRequestAsync:");
+            Console.WriteLine("Message: " + dbEx.Message);
+            Console.WriteLine("Inner Exception: " + dbEx.InnerException?.Message);
+            throw;
+        }
+
+        return true;
     }
+
+
 
     public async Task<IEnumerable<LeaveApproval>> GetApprovalsByManagerIdAsync(int managerId)
     {

@@ -53,5 +53,14 @@ namespace LeaveManagement.Models
         // One-to-One Relationship with LeaveApproval
         public LeaveApproval? LeaveApproval { get; set; }
         public string? ManagerComment { get; set; }
+        [NotMapped]
+        public int NumberOfDays
+        {
+            get
+            {
+                // Calculate days difference; add 1 to include both start and end dates
+                return (EndDate.Date - StartDate.Date).Days + 1;
+            }
+        }
     }
 }
