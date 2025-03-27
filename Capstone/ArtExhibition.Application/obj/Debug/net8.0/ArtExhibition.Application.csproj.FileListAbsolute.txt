@@ -1,0 +1,16 @@
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Application.deps.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Application.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Application.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.sourcelink.json
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\refint\ArtExhibition.Application.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ref\ArtExhibition.Application.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhibition.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Domain.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Domain.pdb
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhib.7C0A26C9.Up2Date
