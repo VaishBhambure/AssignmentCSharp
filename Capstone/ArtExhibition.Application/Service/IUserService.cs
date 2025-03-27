@@ -9,7 +9,7 @@ namespace ArtExhibition.Application.Service
 {
     public interface IUserService
     {
-        //Task<RegistrationResponse> RegisterUserAsync(RegistrationRequest request);
+        Task<RegistrationResponse> RegisterUserAsync(RegistrationRequest request);
         //Task<AuthResponse> Login(AuthRequest authRequest);
 
     }

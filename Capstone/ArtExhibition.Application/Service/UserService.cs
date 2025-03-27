@@ -76,10 +76,7 @@ namespace ArtExhibition.Application.Service
             };
         }
 
-        Task<AuthResponse> IUserService.Login(AuthRequest authRequest)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 
 }

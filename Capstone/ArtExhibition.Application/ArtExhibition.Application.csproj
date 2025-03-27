@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArtExhibition.Core\ArtExhibition.Domain.csproj" />
+    <ProjectReference Include="..\ArtExhibition.Identity\ArtExhibition.Identity.csproj" />
   </ItemGroup>
 
 </Project>

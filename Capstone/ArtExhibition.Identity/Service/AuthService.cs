@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArtExhibition.Identity.Service
 {
-    public class AuthService:IAuthService
+    public class AuthService
     {
 
     }

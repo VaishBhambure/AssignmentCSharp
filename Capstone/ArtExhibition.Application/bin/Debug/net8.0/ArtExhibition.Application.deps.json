@@ -9,6 +9,7 @@
       "ArtExhibition.Application/1.0.0": {
         "dependencies": {
           "ArtExhibition.Domain": "1.0.0",
+          "ArtExhibition.Identity": "1.0.0",
           "Microsoft.Extensions.Identity.Core": "8.0.14"
         },
         "runtime": {
@@ -217,6 +218,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ArtExhibition.Identity/1.0.0": {
+        "dependencies": {
+          "ArtExhibition.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ArtExhibition.Identity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -353,6 +365,11 @@
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
     "ArtExhibition.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArtExhibition.Identity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

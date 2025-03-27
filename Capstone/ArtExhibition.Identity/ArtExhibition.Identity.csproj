@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArtExhibition.Application\ArtExhibition.Application.csproj" />
     <ProjectReference Include="..\ArtExhibition.Core\ArtExhibition.Domain.csproj" />
   </ItemGroup>
 

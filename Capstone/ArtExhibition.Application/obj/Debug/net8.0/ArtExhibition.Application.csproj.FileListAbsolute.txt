@@ -14,3 +14,5 @@ C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Domain.dll
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Domain.pdb
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\obj\Debug\net8.0\ArtExhib.7C0A26C9.Up2Date
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Identity.dll
+C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Application\bin\Debug\net8.0\ArtExhibition.Identity.pdb
