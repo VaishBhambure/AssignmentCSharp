@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtExhibition.Identity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d35278ec1dc2c71447fedb398f1c3c9d4548964")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcbf83a43b0975b7df27de79194ba8a690ac8eff")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtExhibition.Identity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtExhibition.Identity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,3 +11,16 @@ C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\refint\ArtExhibition.Domain.dll
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.pdb
 C:\Users\User\OneDrive\Documents\GitHub\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ref\ArtExhibition.Domain.dll
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\bin\Debug\net8.0\ArtExhibition.Domain.deps.json
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\bin\Debug\net8.0\ArtExhibition.Domain.dll
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\bin\Debug\net8.0\ArtExhibition.Domain.pdb
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.sourcelink.json
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.dll
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\refint\ArtExhibition.Domain.dll
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ArtExhibition.Domain.pdb
+C:\Users\User\OneDrive\Documents\DotNet\New\Newclone\AssignmentCSharp\Capstone\ArtExhibition.Core\obj\Debug\net8.0\ref\ArtExhibition.Domain.dll

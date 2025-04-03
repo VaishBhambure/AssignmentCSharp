@@ -1,0 +1,112 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtExhibitionAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtExhibitionAPI</BasePath>
+      <RelativePath>uploads/47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c3suk6xd8b</Fingerprint>
+      <Integrity>SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtExhibitionAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtExhibitionAPI</BasePath>
+      <RelativePath>uploads/56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c3suk6xd8b</Fingerprint>
+      <Integrity>SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtExhibitionAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtExhibitionAPI</BasePath>
+      <RelativePath>uploads/8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nk9msfs9nv</Fingerprint>
+      <Integrity>Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtExhibitionAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtExhibitionAPI</BasePath>
+      <RelativePath>uploads/9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8zc8fxs263</Fingerprint>
+      <Integrity>tMYJCGsorvdHJ2PDqNrF2edyMmoQT9gFTWUuofalzww=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtExhibitionAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtExhibitionAPI</BasePath>
+      <RelativePath>uploads/a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c3suk6xd8b</Fingerprint>
+      <Integrity>SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtExhibitionAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtExhibitionAPI</BasePath>
+      <RelativePath>uploads/d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nk9msfs9nv</Fingerprint>
+      <Integrity>Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

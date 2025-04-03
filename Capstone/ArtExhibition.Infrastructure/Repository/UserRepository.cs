@@ -19,5 +19,6 @@ namespace ArtExhibition.Infrastructure.Repository
         {
             return await _userManager.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
+
     }
 }

@@ -1,12 +1,640 @@
 {
   "Version": 1,
-  "Hash": "t3vv7CE/pHYgFdxrW6vh2ugdqRi1cpy7js/4omsls7E=",
+  "Hash": "N4fjtzJB6vqqT85ZYU8dNHd9c/wU70+XJQrwPwa0HRw=",
   "Source": "ArtExhibitionAPI",
   "BasePath": "_content/ArtExhibitionAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ArtExhibitionAPI\\wwwroot",
+      "Source": "ArtExhibitionAPI",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png",
+      "SourceId": "ArtExhibitionAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "RelativePath": "uploads/47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c3suk6xd8b",
+      "Integrity": "SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png",
+      "SourceId": "ArtExhibitionAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "RelativePath": "uploads/56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c3suk6xd8b",
+      "Integrity": "SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg",
+      "SourceId": "ArtExhibitionAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "RelativePath": "uploads/8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nk9msfs9nv",
+      "Integrity": "Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg",
+      "SourceId": "ArtExhibitionAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "RelativePath": "uploads/9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8zc8fxs263",
+      "Integrity": "tMYJCGsorvdHJ2PDqNrF2edyMmoQT9gFTWUuofalzww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png",
+      "SourceId": "ArtExhibitionAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "RelativePath": "uploads/a50ca2e5-1f31-4de3-b71a-203f68a5885f_download#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c3suk6xd8b",
+      "Integrity": "SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg",
+      "SourceId": "ArtExhibitionAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\",
+      "BasePath": "_content/ArtExhibitionAPI",
+      "RelativePath": "uploads/d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nk9msfs9nv",
+      "Integrity": "Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.c3suk6xd8b.png",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:35:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3suk6xd8b"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\47ed5f02-8dd6-4c51-9b59-00ab0bc91532_download.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:35:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.c3suk6xd8b.png",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:32:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3suk6xd8b"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\56da1f75-8e71-4a78-b8a3-6f07fc66ad7d_download.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:32:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:09:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).nk9msfs9nv.jpg",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:09:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nk9msfs9nv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/8b928bbd-d2e1-4031-ab9b-9d64d7f47b80_download (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.8zc8fxs263.jpg",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tMYJCGsorvdHJ2PDqNrF2edyMmoQT9gFTWUuofalzww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8zc8fxs263"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tMYJCGsorvdHJ2PDqNrF2edyMmoQT9gFTWUuofalzww="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\9e2faa71-baaa-4e32-a95e-1ac13a03ba99_download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tMYJCGsorvdHJ2PDqNrF2edyMmoQT9gFTWUuofalzww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tMYJCGsorvdHJ2PDqNrF2edyMmoQT9gFTWUuofalzww="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.c3suk6xd8b.png",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:04:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3suk6xd8b"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\a50ca2e5-1f31-4de3-b71a-203f68a5885f_download.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:04:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFq7i1v5zLmwwXh+0aju81ZnA+fhvtsxyvAfQfUVyeI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:31:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).nk9msfs9nv.jpg",
+      "AssetFile": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\wwwroot\\uploads\\d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 16:31:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nk9msfs9nv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d6737311-29c9-4cfe-b6b7-1e66d1a92896_download (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ce65D6G4ueHGzHn28x1Xuef93P9M4Bxwoibk3JrM/8w="
+        }
+      ]
+    }
+  ]
 }

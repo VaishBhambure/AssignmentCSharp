@@ -1,18 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\capstone\\artexhibition.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC4C4014-5128-47B7-9BD5-C0A4F230607E}|ArtExhibitionAPI\\ArtExhibitionAPI.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibitionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4C4014-5128-47B7-9BD5-C0A4F230607E}|ArtExhibitionAPI\\ArtExhibitionAPI.csproj|solutionrelative:artexhibitionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FD6EF24-7D77-4BAC-925C-3393742BB0A7}|ArtExhibition.Identity\\ArtExhibition.Identity.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\capstone\\artexhibition.identity\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD6EF24-7D77-4BAC-925C-3393742BB0A7}|ArtExhibition.Identity\\ArtExhibition.Identity.csproj|solutionrelative:artexhibition.identity\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC4C4014-5128-47B7-9BD5-C0A4F230607E}|ArtExhibitionAPI\\ArtExhibitionAPI.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibitionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4C4014-5128-47B7-9BD5-C0A4F230607E}|ArtExhibitionAPI\\ArtExhibitionAPI.csproj|solutionrelative:artexhibitionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\github\\assignmentcsharp\\capstone\\artexhibition.application\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.application\\service\\artworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\service\\artworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.infrastructure\\repository\\artworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|solutionrelative:artexhibition.infrastructure\\repository\\artworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.core\\interface\\iartworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|solutionrelative:artexhibition.core\\interface\\iartworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.application\\service\\iartworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\service\\iartworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.core\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|solutionrelative:artexhibition.core\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4C4014-5128-47B7-9BD5-C0A4F230607E}|ArtExhibitionAPI\\ArtExhibitionAPI.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibitionapi\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4C4014-5128-47B7-9BD5-C0A4F230607E}|ArtExhibitionAPI\\ArtExhibitionAPI.csproj|solutionrelative:artexhibitionapi\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.infrastructure\\repository\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|solutionrelative:artexhibition.infrastructure\\repository\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.application\\service\\galleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\service\\galleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.application\\service\\igalleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\service\\igalleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.infrastructure\\seeder\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|solutionrelative:artexhibition.infrastructure\\seeder\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.infrastructure\\repository\\galleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C3E75A-CCED-4EDD-8E45-ED910C28DB9D}|ArtExhibition.Infrastructure\\ArtExhibition.Infrastructure.csproj|solutionrelative:artexhibition.infrastructure\\repository\\galleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.core\\interface\\igalleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|solutionrelative:artexhibition.core\\interface\\igalleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.application\\model\\galleryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C14D65E-6A39-42AC-8D4B-CBEC4FD866A4}|ArtExhibition.Application\\ArtExhibition.Application.csproj|solutionrelative:artexhibition.application\\model\\galleryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|c:\\users\\user\\onedrive\\documents\\dotnet\\new\\newclone\\assignmentcsharp\\capstone\\artexhibition.core\\model\\artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B921A2C9-EE2A-4C19-934D-E6C62940FBA8}|ArtExhibition.Core\\ArtExhibition.Domain.csproj|solutionrelative:artexhibition.core\\model\\artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +74,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "ArtExhibition.Application\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\UserService.cs*",
-              "RelativeToolTip": "ArtExhibition.Application\\Service\\UserService.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAArwE4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:21:30.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "ArtExhibition.Application\\Service\\IUserService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\IUserService.cs",
-              "RelativeToolTip": "ArtExhibition.Application\\Service\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:20:11.423Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\ArtExhibition.Identity\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "ArtExhibition.Identity\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\AssignmentCSharp\\Capstone\\ArtExhibition.Identity\\Service\\AuthService.cs",
-              "RelativeToolTip": "ArtExhibition.Identity\\Service\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ArtExhibitionAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ArtExhibitionAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFAAAAAA+v////8TwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:14:48.055Z",
+              "WhenOpened": "2025-03-31T09:42:20.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\ArtWorkService.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Application\\Service\\ArtWorkService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\ArtWorkService.cs",
+              "RelativeToolTip": "ArtExhibition.Application\\Service\\ArtWorkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:35:18.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IArtWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\IArtWorkService.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Application\\Service\\IArtWorkService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\IArtWorkService.cs",
+              "RelativeToolTip": "ArtExhibition.Application\\Service\\IArtWorkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:34:35.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArtWorkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Repository\\ArtWorkRepository.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Infrastructure\\Repository\\ArtWorkRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Repository\\ArtWorkRepository.cs",
+              "RelativeToolTip": "ArtExhibition.Infrastructure\\Repository\\ArtWorkRepository.cs",
+              "ViewState": "AgIAACkAAAAAmZmZmZkRwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:27:17.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IArtWorkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Interface\\IArtWorkRepository.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Core\\Interface\\IArtWorkRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Interface\\IArtWorkRepository.cs",
+              "RelativeToolTip": "ArtExhibition.Core\\Interface\\IArtWorkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:26:12.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ArtExhibitionAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\Program.cs",
+              "RelativeToolTip": "ArtExhibitionAPI\\Program.cs",
+              "ViewState": "AgIAADoAAACgzMzMzMwmwEYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:27:55.995Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IuserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Interface\\IuserRepository.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Core\\Interface\\IuserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Interface\\IuserRepository.cs",
+              "RelativeToolTip": "ArtExhibition.Core\\Interface\\IuserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:17:44.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArtistRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Repository\\ArtistRepository.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Infrastructure\\Repository\\ArtistRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Repository\\ArtistRepository.cs",
+              "RelativeToolTip": "ArtExhibition.Infrastructure\\Repository\\ArtistRepository.cs",
+              "ViewState": "AgIAABcAAACAAQAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T08:40:16.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Seeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Seeder\\Seeder.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Infrastructure\\Seeder\\Seeder.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Seeder\\Seeder.cs",
+              "RelativeToolTip": "ArtExhibition.Infrastructure\\Seeder\\Seeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T08:33:01.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GalleryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Repository\\GalleryRepository.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Infrastructure\\Repository\\GalleryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Infrastructure\\Repository\\GalleryRepository.cs",
+              "RelativeToolTip": "ArtExhibition.Infrastructure\\Repository\\GalleryRepository.cs",
+              "ViewState": "AgIAAEEAAAAAlpmZmVkvwE8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T16:58:59.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\Controllers\\ArtistController.cs",
+              "RelativeDocumentMoniker": "ArtExhibitionAPI\\Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibitionAPI\\Controllers\\ArtistController.cs",
+              "RelativeToolTip": "ArtExhibitionAPI\\Controllers\\ArtistController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:52:26.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGalleryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\IGalleryService.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Application\\Service\\IGalleryService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\IGalleryService.cs",
+              "RelativeToolTip": "ArtExhibition.Application\\Service\\IGalleryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwPRMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:09:03.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGalleryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Interface\\IGalleryRepository.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Core\\Interface\\IGalleryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Interface\\IGalleryRepository.cs",
+              "RelativeToolTip": "ArtExhibition.Core\\Interface\\IGalleryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T16:58:23.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GalleryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\GalleryService.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Application\\Service\\GalleryService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Service\\GalleryService.cs",
+              "RelativeToolTip": "ArtExhibition.Application\\Service\\GalleryService.cs",
+              "ViewState": "AgIAAIEAAAAAlJmZmZkvwHoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:09:32.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GalleryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Model\\GalleryRequest.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Application\\Model\\GalleryRequest.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Application\\Model\\GalleryRequest.cs",
+              "RelativeToolTip": "ArtExhibition.Application\\Model\\GalleryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:16:28.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Artwork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Model\\Artwork.cs",
+              "RelativeDocumentMoniker": "ArtExhibition.Core\\Model\\Artwork.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\DotNet\\New\\Newclone\\AssignmentCSharp\\Capstone\\ArtExhibition.Core\\Model\\Artwork.cs",
+              "RelativeToolTip": "ArtExhibition.Core\\Model\\Artwork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T16:48:56.655Z"
             }
           ]
         }

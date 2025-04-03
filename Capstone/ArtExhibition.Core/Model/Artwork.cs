@@ -14,7 +14,7 @@ namespace ArtExhibition.Domain.Model
         public string Description { get; set; }
 
         [Required]
-        public DateTime CreationDate { get; set; }
+        public DateTime CreationDate { get; set; } = DateTime.UtcNow;
 
         public string ImageURL { get; set; }
 
