@@ -10,9 +10,7 @@ namespace ArtExhibition.Domain.Model
 {
     public class FavoriteArtWork
     {
-        [Key]
-        public int ID { get; set; }
-
+        
         [ForeignKey("User")]
         public string UserID { get; set; }
         public User User { get; set; }

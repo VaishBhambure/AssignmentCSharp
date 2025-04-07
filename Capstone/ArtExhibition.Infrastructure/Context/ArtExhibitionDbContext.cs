@@ -53,6 +53,8 @@ namespace ArtExhibition.Infrastructure.Context
                 .HasForeignKey(ag => ag.GalleryID)
                 .OnDelete(DeleteBehavior.Restrict); // Prevents multiple cascade paths
 
+            modelBuilder.Entity<FavoriteArtWork>()
+      .HasKey(fa => new { fa.UserID, fa.ArtworkID }); // Composite Key
             // Unique constraint for FavoriteArtWork
             modelBuilder.Entity<FavoriteArtWork>()
                 .HasIndex(fa => new { fa.UserID, fa.ArtworkID })

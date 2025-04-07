@@ -1,0 +1,71 @@
+
+/* artwork-upload.component.css */
+.upload-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  input, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+.profile-page {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+.profile-container {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.content-container {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.profile-buttons {
+  margin-top: 15px;
+}
+
+.fav-btn, .art-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.fav-btn {
+  background-color: #ff4757;
+  color: white;
+}
+
+.fav-btn:hover {
+  background-color: #e84118;
+}
+
+.art-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.art-btn:hover {
+  background-color: #0c74d6;
+}

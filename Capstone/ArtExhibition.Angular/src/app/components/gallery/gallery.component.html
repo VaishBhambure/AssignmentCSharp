@@ -1,0 +1,40 @@
+<p>gallery works!</p>
+<div class="gallery-container" >
+    <h2>Create Gallery</h2>
+    <form [formGroup]="galleryForm" (ngSubmit)="createGallery()">
+      <div class="form-group">
+        <label>Gallery Name</label>
+        <input type="text" formControlName="name" placeholder="Enter gallery name" />
+      </div>
+  
+      <div class="form-group">
+        <label>Description</label>
+        <textarea formControlName="description" placeholder="Enter description"></textarea>
+      </div>
+  
+      <div class="form-group">
+        <label>Location</label>
+        <input type="text" formControlName="location" placeholder="Enter location" />
+      </div>
+  
+      <div class="artwork-selection">
+        <h3>Select Artworks</h3>
+        <div *ngIf="artworks.length === 0">Loading artworks...</div>
+        <div *ngFor="let artwork of artworks" class="artwork-item">
+          <input 
+            type="checkbox" 
+            [value]="artwork.id" 
+            (change)="onArtworkSelect(artwork.id, $event)"
+          />
+          <img [src]="artwork.imageURL" alt="{{ artwork.title }}" width="200" height="200">
+          <span>{{ artwork.title }}</span>
+        </div>
+      </div>
+  
+      <button type="submit">Create Gallery</button>
+    </form>
+  </div>
+  <ng-template #notArtist>
+    <p>Access denied. Only artists can create a gallery.</p>
+  </ng-template>
+  

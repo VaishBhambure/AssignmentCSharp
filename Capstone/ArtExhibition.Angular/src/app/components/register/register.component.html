@@ -1,0 +1,39 @@
+<div class="register-container">
+    <form (ngSubmit)="onRegister()" class="form">
+        <h2>Register Here</h2>
+
+        <!-- Username & First Name Side by Side -->
+        <div class="form-group">
+            <input type="text" [(ngModel)]="userName" name="userName" required placeholder="Username" />
+            <input type="text" [(ngModel)]="firstName" name="firstName" required placeholder="First Name" />
+        </div>
+
+        <!-- Last Name & Birth Date Side by Side -->
+        <div class="form-group">
+            <input type="text" [(ngModel)]="lastName" name="lastName" required placeholder="Last Name" />
+            <input type="date" [(ngModel)]="birthDate" name="birthDate" required />
+        </div>
+
+        <!-- Email & Phone Number Side by Side -->
+        <div class="form-group">
+            <input type="email" [(ngModel)]="email" name="email" required placeholder="Email" />
+            <input type="tel" [(ngModel)]="phoneNumber" name="phoneNumber" required placeholder="Phone Number" />
+        </div>
+
+        <!-- Password & Confirm Password Side by Side -->
+        <div class="form-group">
+            <input type="password" [(ngModel)]="password" name="password" required placeholder="Password" />
+            <input type="password" [(ngModel)]="confirmPassword" name="confirmPassword" required placeholder="Confirm Password" />
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" [(ngModel)]="isArtist" name="isArtist" />
+            <label for="isArtist">Are you an artist?</label>
+        </div>
+
+        <button class="btnn" type="submit">Register</button>
+        <p class="link">Already have an account?<br>
+            <a (click)="redirectToLogin()" style="cursor: pointer; color: orange; text-decoration: underline;">Login here</a>
+        </p>
+    </form>
+</div>

@@ -51,7 +51,7 @@ namespace ArtExhibition.Infrastructure.Migrations
                     b.HasIndex("Id")
                         .IsUnique();
 
-                    b.ToTable("Artists");
+                    b.ToTable("Artists", (string)null);
                 });
 
             modelBuilder.Entity("ArtExhibition.Domain.Model.Artwork", b =>
@@ -84,7 +84,7 @@ namespace ArtExhibition.Infrastructure.Migrations
 
                     b.HasIndex("ArtistID");
 
-                    b.ToTable("Artworks");
+                    b.ToTable("Artworks", (string)null);
                 });
 
             modelBuilder.Entity("ArtExhibition.Domain.Model.ArtworkGallery", b =>
@@ -108,32 +108,25 @@ namespace ArtExhibition.Infrastructure.Migrations
                     b.HasIndex("ArtworkID", "GalleryID")
                         .IsUnique();
 
-                    b.ToTable("ArtworkGalleries");
+                    b.ToTable("ArtworkGalleries", (string)null);
                 });
 
             modelBuilder.Entity("ArtExhibition.Domain.Model.FavoriteArtWork", b =>
                 {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    b.Property<string>("UserID")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("ArtworkID")
                         .HasColumnType("int");
 
-                    b.Property<string>("UserID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("ID");
+                    b.HasKey("UserID");
 
                     b.HasIndex("ArtworkID");
 
                     b.HasIndex("UserID", "ArtworkID")
                         .IsUnique();
 
-                    b.ToTable("FavoriteArtWorks");
+                    b.ToTable("FavoriteArtWorks", (string)null);
                 });
 
             modelBuilder.Entity("ArtExhibition.Domain.Model.Gallery", b =>
@@ -163,7 +156,7 @@ namespace ArtExhibition.Infrastructure.Migrations
 
                     b.HasIndex("ArtistID");
 
-                    b.ToTable("Galleries");
+                    b.ToTable("Galleries", (string)null);
                 });
 
             modelBuilder.Entity("ArtExhibition.Domain.Model.User", b =>

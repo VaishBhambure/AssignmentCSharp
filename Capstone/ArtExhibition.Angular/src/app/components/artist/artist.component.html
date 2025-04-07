@@ -1,0 +1,27 @@
+
+<div class="profile-page">
+  <!-- Profile Section -->
+  <div class="profile-container">
+    <div class="profile-icon">👤</div>  
+    <h2>Welcome, {{ userProfile?.userName }}</h2>
+    <p><strong>Email:</strong> {{ userProfile?.email }}</p>
+    <p><strong>Phone:</strong> {{ userProfile?.phone }}</p>
+
+    <div class="profile-buttons">
+      <button class="fav-btn" (click)="toggleUploadForm()">❤️ Upload Artwork</button>
+      <button class="art-btn"(click)="goToCreateGallery()" > Create Gallery</button>
+      <button *ngIf="isLoggedIn()" class="fav-btn" (click)="logout()">🚪 Logout</button>
+
+    </div>
+  </div>
+
+<div class="upload-container" *ngIf="showUploadForm">
+    <h2>Upload Artwork</h2>
+    <input type="text" [(ngModel)]="title" placeholder="Title" />
+    <textarea [(ngModel)]="description" placeholder="Description"></textarea>
+    <input type="file" (change)="onFileSelected($event)" />
+    <button (click)="upload()">Upload</button>
+    <p>{{ message }}</p>
+  </div>
+  <div>
+ <!-- New Button to Redirect to Create Gallery -->

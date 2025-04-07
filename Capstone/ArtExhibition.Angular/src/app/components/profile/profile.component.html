@@ -1,0 +1,68 @@
+
+
+
+<div class="profile-page">
+  <!-- Profile Section -->
+  <div class="profile-container">
+    <div class="profile-icon">👤</div>  
+    <h2>Welcome, {{ userProfile?.userName }}</h2>
+    <p><strong>Email:</strong> {{ userProfile?.email }}</p>
+    <p><strong>Phone:</strong> {{ userProfile?.phone }}</p>
+
+    <div class="profile-buttons">
+      <button class="fav-btn" (click)="viewFavorites()">❤️ Favorites</button>
+      <button class="art-btn" (click)="viewArtworks()">🎨 See Artworks</button>
+      <button *ngIf="isLoggedIn()" class="fav-btn" (click)="logout()">🚪 Logout</button>
+
+    </div>
+  </div>
+
+  <!-- Content Section (Favorites, Search Results, Artworks) -->
+  <div *ngIf="showFavorites" class="favorites-section">
+    <h3>Your Favorite Artworks</h3>
+    <div class="artwork-grid">
+      <div *ngFor="let artwork of favoriteArtworks" class="artwork-card">
+        <img [src]="artwork.imageURL" alt="{{ artwork.title }}" class="artwork-img" onerror="this.src='assets/default-placeholder.jpg'" />
+        <div class="artwork-info">
+          <h4>{{ artwork.title }}</h4>
+          <p>{{ artwork.description }}</p>
+          <button class="remove-btn" (click)="removeFromFavorites(artwork)">❌ Remove from Favorites</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- <div *ngIf="searchResults.length > 0" class="search-results">
+      <h3>Search Results</h3>
+      <div class="artwork-grid">
+        <div *ngFor="let artwork of searchResults" class="artwork-card">
+          <img [src]="artwork.imageURL" alt="{{ artwork.title }}" class="artwork-img" />
+          <div class="artwork-info">
+            <h4>{{ artwork.title }}</h4>
+            <p>{{ artwork.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div *ngIf="searchResults.length > 0" class="search-results">
+    <h3>Search Results</h3>
+    <div class="artwork-grid">
+      <div *ngFor="let artwork of searchResults" class="artwork-card">
+        <img [src]="artwork.imageURL" alt="{{ artwork.title }}" class="artwork-img" />
+        <div class="artwork-info">
+          <!-- <h4>{{ artwork.title }}</h4> -->
+          <h4>{{ artwork.title }}</h4>
+
+          <p>{{ artwork.description }}</p>
+          <!-- Add to Favorite Button -->
+          <!-- <button (click)="addToFavorites(artwork.artworkID)" class="favorite-btn"> -->
+            <button (click)="addToFavorites(artwork.artworkID)" class="favorite-btn">
+              ❤️ Add to Favorites
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+

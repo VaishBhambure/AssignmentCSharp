@@ -1,0 +1,146 @@
+/* .profile-container {
+  margin-top: 1000px;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.profile-buttons {
+  margin-top: 15px;
+}
+
+.fav-btn, .art-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.fav-btn {
+  background-color: #ff4757;
+  color: white;
+}
+
+.fav-btn:hover {
+  background-color: #e84118;
+}
+
+.art-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.art-btn:hover {
+  background-color: #0c74d6;
+} */
+
+
+
+.profile-page {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+.profile-container {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.content-container {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.artwork-card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.artwork-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.profile-buttons {
+  margin-top: 15px;
+}
+
+.fav-btn, .art-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.fav-btn {
+  background-color: #ff4757;
+  color: white;
+}
+
+.fav-btn:hover {
+  background-color: #e84118;
+}
+
+.art-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.art-btn:hover {
+  background-color: #0c74d6;
+}

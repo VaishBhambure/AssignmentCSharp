@@ -1,0 +1,20 @@
+<div class="login-container">
+  
+<div class="content" >
+  <h1>Art Exhibition & <br><span>Showcase</span> <br></h1>
+<p class="par">Experience a mesmerizing collection of artistic masterpieces from renowned and emerging artists. 
+   Discover the beauty of creativity through paintings, sculptures, and digital art that captivate the soul and inspire imagination.</p>
+
+<button class="cn" (click)="redirectToRegister()"><a routerLink="/join">JOIN US</a></button>
+</div>
+  <form (ngSubmit)="onLogin()" class="form">
+      <h2>Login Here</h2>
+      <input type="email" [(ngModel)]="email" name="email" required placeholder="Enter Email" />
+      <input type="password" [(ngModel)]="password" name="password" required placeholder="Enter Password" />
+      <button class="btnn" type="submit">Login</button>
+      <p class="link">Don't have an account?<br>
+          <a (click)="redirectToRegister()"style="cursor: pointer; color: orange; text-decoration: underline;">Register here</a>
+      </p>
+  </form>
+</div>
+

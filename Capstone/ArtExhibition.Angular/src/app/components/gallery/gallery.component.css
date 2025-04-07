@@ -1,0 +1,77 @@
+/* Center the container and add padding */
+.gallery-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Style form groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Style input fields */
+.form-group input, .form-group textarea {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the artwork selection section */
+.artwork-selection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Style individual artwork items */
+.artwork-item {
+  width: 100%;
+  max-width: 300px; /* Ensures uniform width */
+  text-align: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Make artwork images responsive */
+.artwork-item img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  border-radius: 5px;
+}
+
+/* Center the submit button */
+button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Hover effect for button */
+button[type="submit"]:hover {
+  background-color: #e68900;
+}

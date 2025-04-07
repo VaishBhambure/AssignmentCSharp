@@ -1,0 +1,82 @@
+<!-- header.component.html -->
+<nav class="navbar">
+  <div class="icon">
+    <h2 class="logo">ExhibitEase</h2>
+  </div>
+
+  <div class="menu">
+    <ul>
+      <li><a routerLink="/" >HOME</a></li>
+      <li><a routerLink="/about" >ABOUT</a></li>
+      <li><a (click)="getAllGalleries()">GALLERIES</a></li>
+      <!-- ART menu triggers fetching artworks -->
+      <li><a (click)="getAllArtworks()">ART</a></li>
+      
+    </ul>
+  </div>
+  
+  <div class="search">
+    <input class="srch" type="search" [(ngModel)]="searchKeyword" placeholder="Search By Name..." (keyup.enter)="searchArtworks()">
+    <button class="btn" (click)="searchArtworks()">Search</button>
+  </div>
+  
+</nav>
+
+<!-- Display Search Results -->
+<div *ngIf="searchResults.length > 0 " class="search-results">
+  <div class="artwork-grid">
+    <div *ngFor="let artwork of searchResults" class="artwork-card">
+      <img [src]="artwork.imageURL" alt="{{ artwork.title }}" class="artwork-img" />
+      <div class="artwork-info">
+        <h4>{{ artwork.title }}</h4>
+        <p>{{ artwork.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content" >
+  
+<!-- Display All Artworks when ART menu is clicked -->
+<div *ngIf="allArtworks.length >0 && !showContent" class="all-artworks">
+  <div class="artwork-grid">
+    <div *ngFor="let artwork of allArtworks" class="artwork-card">
+        <img [src]="'https://localhost:7168' + artwork.imageURL" alt="{{ artwork.title }}" class="artwork-img" />
+        <div class="artwork-info">
+          <h4>{{ artwork.title }}</h4>
+          <p>{{ artwork.description }}</p>
+          <p>By {{ artwork.artistName }}</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Display Galleries when GALLERIES menu is clicked -->
+<div *ngIf="galleries.length > 0 && !showContent" class="galleries-section">
+  <h2>Galleries</h2>
+  <div class="gallery-grid">
+    <div *ngFor="let gallery of galleries" class="gallery-card">
+      <h3>{{ gallery.name }}</h3>
+      <p>{{ gallery.description }}</p>
+      <p>Location: {{ gallery.location }}</p>
+      
+      <!-- Display artworks inside this gallery -->
+      <div *ngIf="gallery.artworkGalleries?.$values?.length > 0" class="gallery-artworks">
+        <h4>Artworks in this gallery:</h4>
+        <div class="artwork-grid">
+          <div *ngFor="let art of gallery.artworkGalleries.$values" class="artwork-card">
+            <img [src]="'https://localhost:7168' + art.artwork.imageURL" alt="{{ art.artwork.title }}" class="artwork-img" />
+            <div class="artwork-info">
+              <h4>{{ art.artwork.title }}</h4>
+              <p>{{ art.artwork.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+

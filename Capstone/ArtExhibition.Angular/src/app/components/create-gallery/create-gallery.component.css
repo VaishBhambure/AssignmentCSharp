@@ -1,0 +1,86 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Style for artwork selection */
+div *ngFor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div *ngFor > div {
+    flex: 1 1 45%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Success Message */
+.success-message {
+    text-align: center;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #c3e6cb;
+}
+.artworks-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    gap: 10px; /* Space between items */
+  }
+  
+  .artwork-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%; /* 2 items per row */
+  }
+  
+  .artwork-item img {
+    width: 100px; /* Adjust image size */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  

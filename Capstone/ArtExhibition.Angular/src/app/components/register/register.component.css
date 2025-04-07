@@ -1,0 +1,54 @@
+.register-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    height: 100vh;
+    background-color: #2d2d2d;
+    padding: 80px 20px 20px; /* Added top padding to avoid navbar overlap */
+    box-sizing: border-box;
+}
+
+.form {
+    background: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px; /* Increased form width */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Make fields appear in two columns */
+.form-group {
+    display: flex;
+    gap: 15px; /* Space between fields */
+}
+
+.form-group input {
+    flex: 1; /* Make input fields take equal width */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btnn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btnn:hover {
+    background-color: #e55a00;
+}

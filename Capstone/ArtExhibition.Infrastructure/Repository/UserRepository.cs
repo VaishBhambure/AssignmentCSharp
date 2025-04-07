@@ -19,5 +19,15 @@ namespace ArtExhibition.Infrastructure.Repository
         {
             return await _userManager.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
+
+        public async Task<User> GetUserProfileAsync(string userId)
+        {
+            // Using EF Core to retrieve the user by userId
+            var user = await _userManager.Users
+                .Where(u => u.Id == userId)
+                .FirstOrDefaultAsync();
+
+            return user;
+        }
     }
 }

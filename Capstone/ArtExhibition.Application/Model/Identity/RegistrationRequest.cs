@@ -37,7 +37,7 @@ namespace ArtExhibition.Application.Model.Identity
         [Required,NotMapped, Compare("Password", ErrorMessage = "Passwords do not match")]
         public string ConfirmPassword { get; set; }
 
-        public bool IsArtist { get; set; }
+        public bool IsArtist { get; set; } = false;
         
     }
 }

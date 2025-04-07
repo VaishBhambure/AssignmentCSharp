@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>Create Gallery</h2>
+    <form [formGroup]="galleryForm" (ngSubmit)="submitForm()">
+      <label>Gallery Name:</label>
+      <input type="text" formControlName="name" required />
+  
+      <label>Description:</label>
+      <textarea formControlName="description" required></textarea>
+  
+      <label>Location:</label>
+      <input type="text" formControlName="location" required />
+  
+      <h3>Select Artworks:</h3>
+      <div *ngFor="let art of artworks">
+        <input type="checkbox" [value]="art.id"> {{ art.title }}
+        <img *ngIf="art.imageURL" [src]="'https://localhost:7168' + art.imageURL" alt="{{ art.title }}" width="100">
+    </div>
+    <!-- <h3>Select Artworks:</h3>
+<div class="artworks-container">
+  <div *ngFor="let art of artworks" class="artwork-item">
+    <input type="checkbox" [value]="art.id"> {{ art.title }}
+    <img *ngIf="art.imageURL" [src]="'https://localhost:7168' + art.imageURL" alt="{{ art.title }}">
+  </div>
+</div> -->
+      <button type="submit" [disabled]="galleryForm.invalid">Create Gallery</button>
+      
+    </form>
+   
+  </div>
+  

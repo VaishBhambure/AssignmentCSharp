@@ -1,16 +1,14 @@
-﻿using ArtExhibition.Application.Model.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ArtExhibition.Application.Model;
+using ArtExhibition.Application.Model.Identity;
+
 
 namespace ArtExhibition.Application.Service
 {
     public interface IUserService
     {
         Task<RegistrationResponse> RegisterUserAsync(RegistrationRequest request);
-        //Task<AuthResponse> Login(AuthRequest authRequest);
+        Task<LoginResponse> LoginUserAsync (LoginRequest request);
+        Task<UserProfile> GetUserProfileAsync(string userId);
 
     }
 }

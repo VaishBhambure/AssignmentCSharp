@@ -1,0 +1,28 @@
+.content {
+  text-align: left; /* Aligns text to the left */
+  padding: 50px;
+  max-width: 600px; /* Restricts width for better alignment */
+  margin-left: 50px; /* Moves it further to the left */
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h1 span {
+  color: orange;
+}
+
+.par {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.cn {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 0; /* Ensures it stays aligned to the left */
+}
